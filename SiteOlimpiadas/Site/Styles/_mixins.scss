@@ -1,0 +1,29 @@
+﻿@mixin float($height, $width, $margintop: 0, $marginleft: 0, $isMinHeight: false) {
+	float: left;
+	width: $width;
+	margin-top: $margintop;
+	margin-left: $marginleft;
+
+	@if $isMinHeight == true {
+		min-height: $height;
+	}
+	@else {
+		height: $height;
+	}
+}
+
+@mixin background($url, $height: auto, $width: auto, $align: center, $repeat: no-repeat, $color: '') {
+	@if $color != '' {
+		background: $color url($url) $repeat $align;
+	}
+	@else {
+		background: url($url) $repeat $align;
+	}
+
+	background-size: $width $height;
+}
+
+@mixin marginpadding($margin: 0, $padding: 0) {
+	margin: $margin;
+	padding: $padding;
+}

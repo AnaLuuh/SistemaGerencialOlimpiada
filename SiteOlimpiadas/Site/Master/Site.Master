@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SiteOlimpiadas.Site.Master.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Olimpíadas</title>
+    <link href="../Styles/cssMaster.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:PlaceHolder runat="server" ID="placeholder"></asp:PlaceHolder>
+        <section id="sectionPage">
+            <section id="sectionHeader">
+                <section id="sectionLogo"></section>
+                <nav id="navUser">
+                    <ul>
+                        <li id="liLogin" runat="server">
+                            <asp:Image runat="server" ID="imgLogin" ImageUrl="~/Imagens/login.png" Height="25px" />
+                            <asp:LinkButton runat="server" ID="lnkLogin" OnClick="lnkLogin_Click" Text="Login" CssClass="LinkMenu"></asp:LinkButton>
+                        </li>
+                        <li id="liUser" runat="server">
+                            <asp:LinkButton runat="server" ID="lnkDadosPessoais" OnClick="lnkDadosPessoais_Click" CssClass="LinkMenu" Text="Dados Pessoais"></asp:LinkButton>
+                            <asp:LinkButton runat="server" ID="lnkComprar" OnClick="lnkComprar_Click" CssClass="LinkMenu" Text="Comprar Ingressos"></asp:LinkButton>
+                            <asp:LinkButton runat="server" ID="lnlRelatorio" OnClick="lnlRelatorio_Click" CssClass="LinkMenu" Text="Relatório"></asp:LinkButton>
+                        </li>
+                        <li id="liAdmin" runat="server">
+                            <asp:LinkButton runat="server" ID="lnkEventos" OnClick="lnkEventos_Click" CssClass="LinkMenu" Text="Eventos"></asp:LinkButton>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="../Pages/Home.aspx">Home</a> |</li>
+                    <li><a href="../Pages/Ajuda.aspx">Ajuda</a></li>
+                </ul>
+            </nav>
+            <article id="articlePage">
+                <asp:ContentPlaceHolder ID="Conteudo" runat="server">
+                </asp:ContentPlaceHolder>
+            </article>
+            <footer id="footerPage">
+                <div class="divLinha">
+                    &copy; Future Insides - Todos os direitos reservados
+                </div>
+                <div class="divLinha">
+                    contato@futureinsides.com.br
+                </div>
+            </footer>
+
+
+        </section>
+
+        <!--				JAVASCRIPT				 -->
+        <script src="../Scripts/jquery-1.11.1.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $('#sectionLogo').click(function () {
+                    window.location = '../Pages/Home.aspx';
+                });
+            });
+        </script>
+        <asp:ContentPlaceHolder ID="Javascript" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

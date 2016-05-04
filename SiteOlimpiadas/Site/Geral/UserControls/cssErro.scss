@@ -1,0 +1,1441 @@
+﻿@media only screen and (max-width: 300px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+/*top: calc(50% - 180px);
+left: calc(50% - 300px);*/
+height: 320px;
+max-width: 240px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+display: none;
+float: left;
+margin-top: 20px;
+margin-left: calc(50% - 50px);
+height: 100px;
+width: 100px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+display: none;
+float: left;
+height: 40px;
+width: 100%;
+font-size: 40px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+max-height: 240px;
+max-width: 240px;
+margin-top: 4%;
+font-size: 18px;
+text-align: center;
+line-height: 30px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+/*padding-bottom: 30px;*/
+text-align: center;
+}
+
+#btnOK {
+height: 50px;
+width: 230px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 301px) and (max-width: 400px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 200px);
+left: calc(50% - 150px);
+height: 400px;
+width: 300px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: 20px;
+margin-left: calc(50% - 25px);
+height: 50px;
+width: 50px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 40px;
+width: 100%;
+font-size: 30px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+max-height: 250px;
+max-width: 98%;
+font-size: 20px;
+text-align: center;
+line-height: 30px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 30px;
+width: 100px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 200px);
+left: calc(50% - 175px);
+height: 400px;
+width: 350px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: 20px;
+margin-left: calc(50% - 25px);
+height: 50px;
+width: 50px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 40px;
+width: 100%;
+font-size: 40px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+max-height: 200px;
+max-width: 98%;
+margin-top: 2%;
+margin-left: 2%;
+font-size: 20px;
+text-align: center;
+line-height: 30px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 50px;
+width: 230px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 540px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 200px);
+height: auto;
+width: 400px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: 20px;
+margin-left: calc(50% - 35px);
+height: 70px;
+width: 70px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 40px;
+width: 100%;
+font-size: 40px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 25px;
+text-align: center;
+line-height: 40px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 50px;
+width: 230px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 541px) and (max-width: 640px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 200px);
+height: auto;
+width: 400px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: 20px;
+margin-left: calc(50% - 35px);
+height: 70px;
+width: 70px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 40px;
+width: 100%;
+font-size: 40px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 25px;
+text-align: center;
+line-height: 40px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 50px;
+width: 230px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 700px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 200px);
+height: auto;
+width: 400px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: 20px;
+margin-left: calc(50% - 35px);
+height: 70px;
+width: 70px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 40px;
+width: 100%;
+font-size: 40px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 25px;
+text-align: center;
+line-height: 60px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 50px;
+width: 300px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 740px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 250px);
+height: auto;
+width: 500px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: 20px;
+margin-left: calc(50% - 35px);
+height: 70px;
+width: 70px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 40px;
+width: 100%;
+font-size: 40px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 25px;
+text-align: center;
+line-height: 40px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 50px;
+width: 300px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 741px) and (max-width: 790px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 250px);
+height: auto;
+width: 500px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: 20px;
+margin-left: calc(50% - 35px);
+height: 70px;
+width: 70px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 40px;
+width: 100%;
+font-size: 40px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 25px;
+text-align: center;
+line-height: 40px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 50px;
+width: 300px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 791px) and (max-width: 1000px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 250px);
+height: auto;
+width: 500px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: 20px;
+margin-left: calc(50% - 35px);
+height: 70px;
+width: 70px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 40px;
+width: 100%;
+font-size: 45px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 25px;
+text-align: center;
+line-height: 40px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 50px;
+width: 300px;
+font-family: 'Segoe UI';
+font-size: 30px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1080px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 300px);
+height: auto;
+width: 600px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: -100px;
+margin-left: calc(50% - 75px);
+height: 150px;
+width: 150px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 60px;
+width: 100%;
+font-size: 50px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 25px;
+text-align: center;
+line-height: 40px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 80px;
+width: 90%;
+font-family: 'Segoe UI';
+font-size: 40px;
+color: white;
+background:#2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1200px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: -100px;
+margin-left: calc(50% - 75px);
+height: 150px;
+width: 150px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 60px;
+width: 100%;
+font-size: 50px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 25px;
+text-align: center;
+line-height: 40px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 80px;
+width: 90%;
+font-family: 'Segoe UI';
+font-size: 40px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1360px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: -100px;
+margin-left: calc(50% - 100px);
+height: 200px;
+width: 200px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 60px;
+width: 100%;
+font-size: 50px;    
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 80px;
+width: 90%;
+font-family: 'Segoe UI';
+font-size: 40px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 1361px) and (max-width: 1400px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 300px);
+height: auto;
+width: 600px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: -100px;
+margin-left: calc(50% - 100px);
+height: 200px;
+width: 200px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 60px;
+width: 100%;
+font-size: 50px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 80px;
+width: 90%;
+font-family: 'Segoe UI';
+font-size: 40px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1550px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 300px);
+height: auto;
+width: 600px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: -100px;
+margin-left: calc(50% - 100px);
+height: 200px;
+width: 200px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 60px;
+width: 100%;
+font-size: 50px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 80px;
+width: 90%;
+font-family: 'Segoe UI';
+font-size: 40px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 1551px) and (max-width: 1800px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 300px);
+height: auto;
+width: 600px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: -100px;
+margin-left: calc(50% - 100px);
+height: 200px;
+width: 200px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 60px;
+width: 100%;
+font-size: 50px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 80px;
+width: 90%;
+font-family: 'Segoe UI';
+font-size: 40px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 1980px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 300px);
+height: auto;
+width: 600px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: -100px;
+margin-left: calc(50% - 100px);
+height: 200px;
+width: 200px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 60px;
+width: 100%;
+font-size: 50px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 80px;
+width: 90%;
+font-family: 'Segoe UI';
+font-size: 40px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 1981px) and (max-width: 2400px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 300px);
+height: auto;
+width: 600px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: -100px;
+margin-left: calc(50% - 100px);
+height: 200px;
+width: 200px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 60px;
+width: 100%;
+font-size: 50px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 80px;
+width: 90%;
+font-family: 'Segoe UI';
+font-size: 40px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 2401px) and (max-width: 2700px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 300px);
+height: auto;
+width: 600px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: -100px;
+margin-left: calc(50% - 100px);
+height: 200px;
+width: 200px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 60px;
+width: 100%;
+font-size: 50px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 80px;
+width: 90%;
+font-family: 'Segoe UI';
+font-size: 40px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 2701px) and (max-width: 3100px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 500px);
+height: auto;
+width: 1000px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: -100px;
+margin-left: calc(50% - 100px);
+height: 200px;
+width: 200px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 60px;
+width: 100%;
+font-size: 60px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 40px;
+text-align: center;
+line-height: 60px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 80px;
+width: 90%;
+font-family: 'Segoe UI';
+font-size: 40px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 3101px) and (max-width: 3300px) {
+.sectionOuterErro {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+.sectionInnerErro {
+position: fixed;
+top: calc(50% - 180px);
+left: calc(50% - 500px);
+height: auto;
+width: 1000px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+.sectionIconeErro {
+float: left;
+margin-top: -100px;
+margin-left: calc(50% - 100px);
+height: 200px;
+width: 200px;
+background: url('/Imagens/Icones/icone_erro.png') no-repeat center;
+background-size: 80%;
+}
+
+.sectionTituloErro {
+float: left;
+height: 60px;
+width: 100%;
+font-size: 60px;
+text-align: center;
+}
+
+.sectionTextoErro {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 40px;
+text-align: center;
+line-height: 60px;
+}
+
+.footerErro {
+float: left;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#btnOK {
+height: 80px;
+width: 90%;
+font-family: 'Segoe UI';
+font-size: 40px;
+color: white;
+background: #2E8B57;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+}

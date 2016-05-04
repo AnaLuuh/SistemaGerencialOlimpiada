@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OlimpiadasModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Evento">
+      <EntityTypeMapping TypeName="OlimpiadasModel.Evento">
+        <MappingFragment StoreEntitySet="Evento">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Modalidade_ID" ColumnName="Modalidade_ID" />
+          <ScalarProperty Name="Local_ID" ColumnName="Local_ID" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Horario" ColumnName="Horario" />
+          <ScalarProperty Name="NomeEvento" ColumnName="NomeEvento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventoUsuario">
+      <EntityTypeMapping TypeName="OlimpiadasModel.EventoUsuario">
+        <MappingFragment StoreEntitySet="EventoUsuario">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Evento_ID" ColumnName="Evento_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ingresso">
+      <EntityTypeMapping TypeName="OlimpiadasModel.Ingresso">
+        <MappingFragment StoreEntitySet="Ingresso">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Evento_ID" ColumnName="Evento_ID" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Local">
+      <EntityTypeMapping TypeName="OlimpiadasModel.Local">
+        <MappingFragment StoreEntitySet="Local">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DescLocal" ColumnName="DescLocal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tutorial">
+      <EntityTypeMapping TypeName="OlimpiadasModel.Tutorial">
+        <MappingFragment StoreEntitySet="Tutorial">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NomeTutorial" ColumnName="NomeTutorial" />
+          <ScalarProperty Name="DescTutorial" ColumnName="DescTutorial" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InformacaoBH">
+      <EntityTypeMapping TypeName="OlimpiadasModel.InformacaoBH">
+        <MappingFragment StoreEntitySet="InformacaoBH">
+          <ScalarProperty Name="Informacao" ColumnName="Informacao" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="OlimpiadasModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="Perfil_ID" ColumnName="Perfil_ID" />
+          <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Logradouro" ColumnName="Logradouro" />
+          <ScalarProperty Name="Senha" ColumnName="Senha" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Modalidade">
+      <EntityTypeMapping TypeName="OlimpiadasModel.Modalidade">
+        <MappingFragment StoreEntitySet="Modalidade">
+          <ScalarProperty Name="InfoModalidade" ColumnName="InfoModalidade" />
+          <ScalarProperty Name="DescModalidade" ColumnName="DescModalidade" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Perfil">
+      <EntityTypeMapping TypeName="OlimpiadasModel.Perfil">
+        <MappingFragment StoreEntitySet="Perfil">
+          <ScalarProperty Name="DescPerfil" ColumnName="DescPerfil" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

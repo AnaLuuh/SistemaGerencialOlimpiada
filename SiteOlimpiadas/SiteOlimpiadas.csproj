@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6BC64B07-FA32-475A-964A-0C430AD01614}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SiteOlimpiadas</RootNamespace>
+    <AssemblyName>SiteOlimpiadas</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Util, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Site\Geral\Util.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documentos\dataOlimpiadas.sql" />
+    <Content Include="Documentos\schemaOlimpiadas.sql" />
+    <Content Include="Site\Geral\UserControls\cssErro.css">
+      <DependentUpon>cssErro.scss</DependentUpon>
+    </Content>
+    <Content Include="Site\Geral\UserControls\cssErro.min.css">
+      <DependentUpon>cssErro.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Geral\UserControls\UserErro.ascx" />
+    <Content Include="Site\Geral\Util.dll" />
+    <Content Include="Imagens\login.png" />
+    <Content Include="Imagens\LogoOlimpiadas.png" />
+    <Content Include="Imagens\LogoRioSemFundo.png" />
+    <Content Include="Imagens\logout-icon.png" />
+    <Content Include="Site\Master\Site.Master" />
+    <Content Include="Site\Pages\Ajuda.aspx" />
+    <Content Include="Site\Pages\ComprarIngresso.aspx" />
+    <Content Include="Site\Pages\DadosPessoais.aspx" />
+    <Content Include="Site\Pages\Detalhes.aspx" />
+    <Content Include="Site\Pages\EditarEvento.aspx" />
+    <Content Include="Site\Pages\EmitirRelatorio.aspx" />
+    <Content Include="Site\Pages\Eventos.aspx" />
+    <Content Include="Site\Scripts\jquery-1.11.1.min.js" />
+    <Content Include="Site\Styles\cssAjuda.css">
+      <DependentUpon>cssAjuda.scss</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssAjuda.min.css">
+      <DependentUpon>cssAjuda.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssCadastro.css">
+      <DependentUpon>cssCadastro.scss</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssCadastro.min.css">
+      <DependentUpon>cssCadastro.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssComprarIngresso.css">
+      <DependentUpon>cssComprarIngresso.scss</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssComprarIngresso.min.css">
+      <DependentUpon>cssComprarIngresso.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssDadosPessoais.css">
+      <DependentUpon>cssDadosPessoais.scss</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssDadosPessoais.min.css">
+      <DependentUpon>cssDadosPessoais.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssDetalhes.css">
+      <DependentUpon>cssDetalhes.scss</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssDetalhes.min.css">
+      <DependentUpon>cssDetalhes.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssEmitirRelatorio.css">
+      <DependentUpon>cssEmitirRelatorio.scss</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssEmitirRelatorio.min.css">
+      <DependentUpon>cssEmitirRelatorio.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssEventos.css">
+      <DependentUpon>cssEventos.scss</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssEventos.min.css">
+      <DependentUpon>cssEventos.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssHome.css">
+      <DependentUpon>cssHome.scss</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssHome.min.css">
+      <DependentUpon>cssHome.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssLogin.css">
+      <DependentUpon>cssLogin.scss</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssLogin.min.css">
+      <DependentUpon>cssLogin.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssMaster.css">
+      <DependentUpon>cssMaster.scss</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssMaster.min.css">
+      <DependentUpon>cssMaster.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\_mixins.scss" />
+    <Content Include="Site\Styles\_styles.scss" />
+    <Content Include="Site\Styles\_variaveis.scss" />
+    <Content Include="Site\Styles\cssLogin.scss" />
+    <Content Include="Site\Styles\cssLogin.css.map">
+      <DependentUpon>cssLogin.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssMaster.scss" />
+    <Content Include="Site\Styles\cssMaster.css.map">
+      <DependentUpon>cssMaster.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssCadastro.scss" />
+    <Content Include="Site\Styles\cssCadastro.css.map">
+      <DependentUpon>cssCadastro.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssDadosPessoais.scss" />
+    <Content Include="Site\Styles\cssDadosPessoais.css.map">
+      <DependentUpon>cssDadosPessoais.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssHome.scss" />
+    <Content Include="Site\Styles\cssHome.css.map">
+      <DependentUpon>cssHome.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssDetalhes.scss" />
+    <Content Include="Site\Styles\cssDetalhes.css.map">
+      <DependentUpon>cssDetalhes.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssAjuda.scss" />
+    <Content Include="Site\Styles\cssAjuda.css.map">
+      <DependentUpon>cssAjuda.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssEventos.scss" />
+    <Content Include="Site\Styles\cssEventos.css.map">
+      <DependentUpon>cssEventos.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssComprarIngresso.scss" />
+    <Content Include="Site\Styles\cssComprarIngresso.css.map">
+      <DependentUpon>cssComprarIngresso.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Styles\cssEmitirRelatorio.scss" />
+    <Content Include="Site\Styles\cssEmitirRelatorio.css.map">
+      <DependentUpon>cssEmitirRelatorio.css</DependentUpon>
+    </Content>
+    <Content Include="Site\Geral\UserControls\cssErro.scss" />
+    <Content Include="Site\Geral\UserControls\cssErro.css.map">
+      <DependentUpon>cssErro.css</DependentUpon>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagens\LogoRio.jpg" />
+    <Content Include="Imagens\WallPapper.jpg" />
+    <Content Include="Site\Pages\Cadastro.aspx" />
+    <Content Include="Site\Pages\Home.aspx" />
+    <Content Include="Site\Pages\Login.aspx" />
+    <Content Include="Site\time\integrantes.txt" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Site\Geral\COOKIE.cs" />
+    <Compile Include="Site\Geral\CRIPTO.cs" />
+    <Compile Include="Site\Geral\UserControls\UserErro.ascx.cs">
+      <DependentUpon>UserErro.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Geral\UserControls\UserErro.ascx.designer.cs">
+      <DependentUpon>UserErro.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site\Master\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Master\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Pages\Ajuda.aspx.cs">
+      <DependentUpon>Ajuda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Pages\Ajuda.aspx.designer.cs">
+      <DependentUpon>Ajuda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\BaseSite.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Pages\Cadastro.aspx.cs">
+      <DependentUpon>Cadastro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Pages\Cadastro.aspx.designer.cs">
+      <DependentUpon>Cadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Pages\ComprarIngresso.aspx.cs">
+      <DependentUpon>ComprarIngresso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Pages\ComprarIngresso.aspx.designer.cs">
+      <DependentUpon>ComprarIngresso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Pages\DadosPessoais.aspx.cs">
+      <DependentUpon>DadosPessoais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Pages\DadosPessoais.aspx.designer.cs">
+      <DependentUpon>DadosPessoais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Pages\Detalhes.aspx.cs">
+      <DependentUpon>Detalhes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Pages\Detalhes.aspx.designer.cs">
+      <DependentUpon>Detalhes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Pages\EditarEvento.aspx.cs">
+      <DependentUpon>EditarEvento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Pages\EditarEvento.aspx.designer.cs">
+      <DependentUpon>EditarEvento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Pages\EmitirRelatorio.aspx.cs">
+      <DependentUpon>EmitirRelatorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Pages\EmitirRelatorio.aspx.designer.cs">
+      <DependentUpon>EmitirRelatorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Pages\Eventos.aspx.cs">
+      <DependentUpon>Eventos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Pages\Eventos.aspx.designer.cs">
+      <DependentUpon>Eventos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Pages\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Pages\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PersistLayer\PersistLayer.csproj">
+      <Project>{b5ab4ea0-b69d-4ee2-8c97-78533dd6d365}</Project>
+      <Name>PersistLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58945</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58945/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

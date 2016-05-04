@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OlimpiadasModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Evento">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Modalidade_ID" Type="int" Nullable="false" />
+    <Property Name="Local_ID" Type="int" Nullable="false" />
+    <Property Name="Data" Type="datetime" Nullable="false" />
+    <Property Name="Horario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="NomeEvento" Type="varchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EventoUsuario">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Usuario_ID" Type="int" Nullable="false" />
+    <Property Name="Evento_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="InformacaoBH">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Informacao" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ingresso">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Evento_ID" Type="int" Nullable="false" />
+    <Property Name="Valor" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Local">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DescLocal" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Modalidade">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DescModalidade" Type="varchar(max)" Nullable="false" />
+    <Property Name="InfoModalidade" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Perfil">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DescPerfil" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Tutorial">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NomeTutorial" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DescTutorial" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="CPF" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Senha" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Logradouro" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Numero" Type="int" Nullable="false" />
+    <Property Name="Bairro" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Cidade" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="UF" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="DataNascimento" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Perfil_ID" Type="int" />
+  </EntityType>
+  <Association Name="FK_Evento_Local">
+    <End Role="Local" Type="Self.Local" Multiplicity="1" />
+    <End Role="Evento" Type="Self.Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Local">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Evento">
+        <PropertyRef Name="Local_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Modalidade">
+    <End Role="Modalidade" Type="Self.Modalidade" Multiplicity="1" />
+    <End Role="Evento" Type="Self.Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Modalidade">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Evento">
+        <PropertyRef Name="Modalidade_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventoUsuario_Evento">
+    <End Role="Evento" Type="Self.Evento" Multiplicity="1" />
+    <End Role="EventoUsuario" Type="Self.EventoUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Evento">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EventoUsuario">
+        <PropertyRef Name="Evento_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventoUsuario_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="EventoUsuario" Type="Self.EventoUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EventoUsuario">
+        <PropertyRef Name="Usuario_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ingresso_Evento">
+    <End Role="Evento" Type="Self.Evento" Multiplicity="1" />
+    <End Role="Ingresso" Type="Self.Ingresso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Evento">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Ingresso">
+        <PropertyRef Name="Evento_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Perfil">
+    <End Role="Perfil" Type="Self.Perfil" Multiplicity="0..1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Perfil">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="Perfil_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OlimpiadasModelStoreContainer">
+    <EntitySet Name="Evento" EntityType="Self.Evento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EventoUsuario" EntityType="Self.EventoUsuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="InformacaoBH" EntityType="Self.InformacaoBH" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ingresso" EntityType="Self.Ingresso" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Local" EntityType="Self.Local" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Modalidade" EntityType="Self.Modalidade" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Perfil" EntityType="Self.Perfil" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tutorial" EntityType="Self.Tutorial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Evento_Local" Association="Self.FK_Evento_Local">
+      <End Role="Local" EntitySet="Local" />
+      <End Role="Evento" EntitySet="Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Modalidade" Association="Self.FK_Evento_Modalidade">
+      <End Role="Modalidade" EntitySet="Modalidade" />
+      <End Role="Evento" EntitySet="Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventoUsuario_Evento" Association="Self.FK_EventoUsuario_Evento">
+      <End Role="Evento" EntitySet="Evento" />
+      <End Role="EventoUsuario" EntitySet="EventoUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventoUsuario_Usuario" Association="Self.FK_EventoUsuario_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="EventoUsuario" EntitySet="EventoUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ingresso_Evento" Association="Self.FK_Ingresso_Evento">
+      <End Role="Evento" EntitySet="Evento" />
+      <End Role="Ingresso" EntitySet="Ingresso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Perfil" Association="Self.FK_Usuario_Perfil">
+      <End Role="Perfil" EntitySet="Perfil" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

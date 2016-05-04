@@ -1,0 +1,1247 @@
+﻿@import '_mixins.scss';
+@import '_styles.scss';
+@import '_variaveis.scss';
+
+@media only screen and (max-width: 300px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 100px);
+left: calc(50% - 100px);
+height: auto;
+width: 200px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 301px) and (max-width: 400px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 120px);
+left: calc(50% - 150px);
+height: auto;
+width: 300px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: auto;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: 50px;
+left: calc(50% - 190px);
+height: auto;
+width: 380px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 540px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: 50px;
+left: calc(50% - 190px);
+height: auto;
+width: 380px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 541px) and (max-width: 640px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: 150px;
+left: calc(50% - 190px);
+height: auto;
+width: 380px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 700px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: 150px;
+left: calc(50% - 190px);
+height: auto;
+width: 380px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 740px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: 150px;
+left: calc(50% - 190px);
+height: auto;
+width: 380px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 741px) and (max-width: 790px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 791px) and (max-width: 1000px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1080px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1200px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1360px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 1361px) and (max-width: 1400px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1550px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 1551px) and (max-width: 1800px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 1980px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 1981px) and (max-width: 2400px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 2401px) and (max-width: 2700px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 2701px) and (max-width: 3100px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 3101px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionAjuda {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionLinks {
+@include float(auto, 90%, 10px, 5%);
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+
+#sectionLoginPopUp {
+position: fixed;
+top: 0;
+left: 0;
+height: 3000px;
+width: 100%;
+font-family: 'Segoe UI';
+background: rgba(0, 0, 0, 0.8);
+z-index: 10;
+}
+
+#sectionModal {
+position: fixed;
+top: calc(50% - 220px);
+left: calc(50% - 350px);
+height: auto;
+width: 700px;
+background: white;
+border-radius: 20px;
+border-top: none;
+}
+
+#sectionFechar {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+#sectionDescricao {
+float: left;
+height: 400px;
+width: 98%;
+padding: 30px 1%;
+font-size: 30px;
+text-align: center;
+line-height: 60px;
+overflow-y: scroll;
+}
+}

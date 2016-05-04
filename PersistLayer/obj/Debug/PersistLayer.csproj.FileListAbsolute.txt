@@ -1,0 +1,25 @@
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\PersistLayer\bin\Debug\PersistLayer.dll
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\PersistLayer\bin\Debug\PersistLayer.pdb
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\PersistLayer\obj\Debug\PersistLayer.csprojResolveAssemblyReference.cache
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\PersistLayer\obj\Debug\PersistLayer.dll
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\PersistLayer\obj\Debug\PersistLayer.pdb
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\PersistLayer\bin\Debug\PersistLayer.dll.config
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\PersistLayer\bin\Debug\PersistLayer.dll
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\PersistLayer\bin\Debug\PersistLayer.pdb
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\PersistLayer\bin\Debug\EntityFramework.dll
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\PersistLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\PersistLayer\bin\Debug\EntityFramework.xml
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\PersistLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\PersistLayer\obj\Debug\PersistLayer.csprojResolveAssemblyReference.cache
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\PersistLayer\obj\Debug\PersistLayer.dll
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\PersistLayer\obj\Debug\PersistLayer.pdb
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\PersistLayer\bin\Debug\PersistLayer.dll.config
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\PersistLayer\bin\Debug\PersistLayer.dll
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\PersistLayer\bin\Debug\PersistLayer.pdb
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\PersistLayer\bin\Debug\EntityFramework.dll
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\PersistLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\PersistLayer\bin\Debug\EntityFramework.xml
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\PersistLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\PersistLayer\obj\Debug\PersistLayer.csprojResolveAssemblyReference.cache
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\PersistLayer\obj\Debug\PersistLayer.dll
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\PersistLayer\obj\Debug\PersistLayer.pdb

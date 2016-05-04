@@ -1,0 +1,51 @@
+E:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.dll.config
+E:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.dll
+E:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.pdb
+E:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.csprojResolveAssemblyReference.cache
+E:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.dll
+E:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.pdb
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.dll.config
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.dll
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.pdb
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.csprojResolveAssemblyReference.cache
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.dll
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.pdb
+D:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.dll.config
+D:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.dll
+D:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.pdb
+D:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.csprojResolveAssemblyReference.cache
+D:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.dll
+D:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SiteOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.pdb
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.dll.config
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.dll
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.pdb
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.csprojResolveAssemblyReference.cache
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.dll
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.pdb
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\SiteOlimpiadas\bin\PersistLayer.dll
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\SiteOlimpiadas\bin\Util.dll
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\SiteOlimpiadas\bin\EntityFramework.dll
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\SiteOlimpiadas\bin\PersistLayer.pdb
+C:\Users\ANA\Documents\-1SiteOlimpiadas\SistemaOlimpiadas\SiteOlimpiadas\bin\EntityFramework.xml
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SistemaOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.dll.config
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SistemaOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.dll
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SistemaOlimpiadas\SiteOlimpiadas\bin\SiteOlimpiadas.pdb
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SistemaOlimpiadas\SiteOlimpiadas\bin\PersistLayer.dll
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SistemaOlimpiadas\SiteOlimpiadas\bin\Util.dll
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SistemaOlimpiadas\SiteOlimpiadas\bin\EntityFramework.dll
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SistemaOlimpiadas\SiteOlimpiadas\bin\PersistLayer.pdb
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SistemaOlimpiadas\SiteOlimpiadas\bin\EntityFramework.xml
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SistemaOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.csprojResolveAssemblyReference.cache
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SistemaOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.dll
+G:\PUC MINAS\7º Periodo\Tecnologias web\Trabalho Prático\SistemaOlimpiadas\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.pdb
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\bin\SiteOlimpiadas.dll.config
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\bin\SiteOlimpiadas.dll
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\bin\SiteOlimpiadas.pdb
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\bin\PersistLayer.dll
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\bin\Util.dll
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\bin\EntityFramework.dll
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\bin\PersistLayer.pdb
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\bin\EntityFramework.xml
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.csprojResolveAssemblyReference.cache
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.dll
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.pdb

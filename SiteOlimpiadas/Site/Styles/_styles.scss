@@ -1,0 +1,57 @@
+﻿@import '_variaveis.scss';
+
+a.Black {
+color: black;
+text-decoration: none;
+
+&:hover {
+color: white;
+}
+}
+
+a.Black1 {
+color: black;
+text-decoration: none;
+}
+
+a.Red {
+color: #335ed8;
+text-decoration: none;
+}
+
+a.White {
+color: #FFFFFF;
+text-decoration: none;
+
+&:hover {
+color: #DDDDDD;
+}
+}
+
+input[type=text].WhiteLarge {
+height: 60px;
+width: 500px;
+}
+
+input[type=submit].buttonNormal {
+height: 60px;
+min-width: 200px;
+font-family: 'Segoe UI';
+font-size: 30px;
+font-weight: normal;
+background: #eee;
+color: #335ed8;
+border: none;
+cursor: pointer;
+
+&:hover {
+font-weight: bold;
+}
+}
+
+article.articleBotoes {
+float: left;
+margin: 40px 0;
+width: 100%;
+text-align: center;
+}

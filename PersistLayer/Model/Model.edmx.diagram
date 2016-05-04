@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d96224b244d6478987af4c86819aebec" Name="Diagram1">
+        <EntityTypeShape EntityType="OlimpiadasModel.Evento" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlimpiadasModel.EventoUsuario" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlimpiadasModel.Ingresso" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlimpiadasModel.Local" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlimpiadasModel.Tutorial" Width="1.5" PointX="7.75" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="OlimpiadasModel.FK_Evento_Local" ManuallyRouted="false" />
+        <AssociationConnector Association="OlimpiadasModel.FK_EventoUsuario_Evento" ManuallyRouted="false" />
+        <AssociationConnector Association="OlimpiadasModel.FK_Ingresso_Evento" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="OlimpiadasModel.InformacaoBH" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="OlimpiadasModel.Usuario" Width="1.5" PointX="0.75" PointY="8" />
+        <AssociationConnector Association="OlimpiadasModel.FK_EventoUsuario_Usuario" />
+        <EntityTypeShape EntityType="OlimpiadasModel.Modalidade" Width="1.5" PointX="7.375" PointY="4.875" />
+        <AssociationConnector Association="OlimpiadasModel.FK_Evento_Modalidade" />
+        <EntityTypeShape EntityType="OlimpiadasModel.Perfil" Width="1.5" PointX="0.75" PointY="13" />
+        <AssociationConnector Association="OlimpiadasModel.FK_Usuario_Perfil" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

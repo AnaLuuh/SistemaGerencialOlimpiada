@@ -1,0 +1,1662 @@
+﻿@import '_mixins.scss';
+@import '_styles.scss';
+
+@media only screen and (max-width: 300px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(auto, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(80px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(60%, 75%, 25px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 20px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 190px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 60px;
+height: 35px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 18px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 15px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 301px) and (max-width: 400px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(auto, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(80px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(50%, 75%, 25px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 20px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 250px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 18px;
+color: #335ed8;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(auto, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(80px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(60%, 45%, 25px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 340px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 540px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(auto, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(80px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(60%, 45%, 25px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 400px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: #335ed8;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 541px) and (max-width: 640px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(auto, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 45%, 30px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 450px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 700px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(auto, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 45%, 30px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 450px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 740px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(auto, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 45%, 30px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 450px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 741px) and (max-width: 790px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(auto, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 30px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 791px) and (max-width: 1000px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(auto, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 30px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1080px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 20px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1200px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 20px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1360px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 20px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 1361px) and (max-width: 1400px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 20px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1550px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 20px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 1551px) and (max-width: 1800px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 20px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 1980px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 20px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 1981px) and (max-width: 2400px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 20px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 2401px) and (max-width: 2700px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 20px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 2701px) and (max-width: 3100px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 20px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}
+
+@media only screen and (min-width: 3101px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionPage {
+@include float(700px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+}
+
+#sectionHeader {
+@include float(100px, 100%);
+background-color: #eee;
+}
+
+#sectionLogo {
+@include float(70%, 35%, 20px, 2%);
+background: url(../../Imagens/LogoOlimpiadas.png) no-repeat;
+background-size: contain;
+}
+
+#sectionDetail {
+@include float(3px, 100%, 1%);
+background-color: $verde;
+}
+
+#sectionCampos {
+@include float(350px, 100%, 1%);
+padding-top: 50px;
+background-color: #eee;
+}
+
+.divTitle {
+@include float(50px, 80%, 0, 10%);
+font-size: 30px;
+font-weight: bold;
+}
+
+.divTexto {
+@include float(30px, 80%, 0, 10%);
+font-size: 20px;
+}
+
+.divControl {
+@include float(50px, 80%, 0, 10%);
+}
+
+.TextBox {
+width: 500px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 100px;
+height: 45px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+font-size: 20px;
+color: $verde;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+color: black;
+}
+}
+}

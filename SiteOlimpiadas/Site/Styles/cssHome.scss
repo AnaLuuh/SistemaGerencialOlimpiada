@@ -1,0 +1,1655 @@
+﻿@import '_mixins.scss';
+@import '_styles.scss';
+@import '_variaveis.scss';
+
+@media only screen and (max-width: 300px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 98%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 0, 5px);
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+display: none;
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 100%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 301px) and (max-width: 400px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 98%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 0, 5px);
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+display: none;
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 100%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 98%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 0, 5px);
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+display: none;
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 100%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 540px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 98%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 0, 5px);
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+display: none;
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 100%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 541px) and (max-width: 640px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 700px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 740px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 741px) and (max-width: 790px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 791px) and (max-width: 1000px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1080px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 20%); 
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 20%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1200px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1360px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 1361px) and (max-width: 1400px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1550px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 1551px) and (max-width: 1800px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 1980px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 1981px) and (max-width: 2400px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 2401px) and (max-width: 2700px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 2701px) and (max-width: 3100px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 3101px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+#sectionHome {
+@include float(1000px, 100%, 0, 0, true);
+padding-bottom: 50px;
+font-family: 'Segoe UI';
+font-size: 20px;
+}
+
+#sectionFiltro {
+@include float(auto, 98%, 5px);
+text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
+#sectionEvento {
+@include float(100px, 91%, 10px, 5%);
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+#sectionTitleEvento {
+@include float(50%, 99%);
+font-weight: bold;
+border-bottom: solid;
+border-bottom-color: $verde;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divTitle {
+@include float(100%, 25%);
+}
+
+#sectionDadosEvento {
+@include float(50%, 100%);
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.divDados {
+@include float(100%, 25%);
+}
+
+.TextBox {
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+
+.Button {
+background-color: $verde;
+font-weight: bold;
+width: 120px;
+height: 40px;
+padding-right: 10px;
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Segoe UI';
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+.Link {
+text-decoration: none;
+font-weight: bold;
+color: $verde;
+font-size: 23px;
+}
+}
