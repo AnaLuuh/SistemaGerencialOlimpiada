@@ -46,7 +46,7 @@ namespace SiteOlimpiadas.Site.Pages
                 dt.Columns.Add("Horario");
                 dt.Columns.Add("ID");
 
-                List<EventoUsuario> lstEventosUsuario = new EventoUsuarioDAL().ListarUsu(Usu.ID);
+                List<EventoUsuario> lstEventosUsuario = new EventoUsuarioDAL().ListarUsu(Usu.ID).OrderBy(a => a.Evento.Data).ToList();
 
                 foreach (EventoUsuario e in lstEventosUsuario)
                 {
@@ -81,7 +81,10 @@ namespace SiteOlimpiadas.Site.Pages
                 if (ddlEvento.SelectedItem.Value == "1")
                     lstEventosUsuario = new EventoUsuarioDAL().ListarUsu(Usu.ID).OrderBy(a => a.Evento.Modalidade.DescModalidade).ToList();
                 if (ddlEvento.SelectedItem.Value == "2")
-                    lstEventosUsuario = new EventoUsuarioDAL().ListarUsu(Usu.ID).OrderBy(a => a.Evento.Data).ToList();
+                {
+                    DateTime data = Convert.ToDateTime(txtData.Text);
+                    lstEventosUsuario = new EventoUsuarioDAL().ListarUsu(Usu.ID).Where(b => b.Evento.Data == data).OrderBy(a => a.Evento.Data).ToList();
+                }
 
                 foreach (EventoUsuario eve in lstEventosUsuario)
                 {
@@ -115,11 +118,11 @@ namespace SiteOlimpiadas.Site.Pages
                 string result = "";
                 foreach (EventoUsuario eve in lstEventosUsuario)
                 {
-                    result += "<p>Evento:" + eve.Evento.NomeEvento + "</p>";
-                    result += "<p>Modalidade:" + eve.Evento.Modalidade.DescModalidade + "</p>";
-                    result += "<p>Data:" + eve.Evento.Data.ToShortDateString() + "</p>";
-                    result += "<p>Horario:" + eve.Evento.Horario + "</p>";
-                    result += "<p>Local:" + eve.Evento.Local + "</p>";
+                    result += "<p><strong>Evento: </strong>" + eve.Evento.NomeEvento + "</p>";
+                    result += "<p><strong>Modalidade: </strong>" + eve.Evento.Modalidade.DescModalidade + "</p>";
+                    result += "<p><strong>Data: </strong>" + eve.Evento.Data.ToShortDateString() + "</p>";
+                    result += "<p><strong>Horario: </strong>" + eve.Evento.Horario + "</p>";
+                    result += "<p><strong>Local: </strong>" + eve.Evento.Local.DescLocal + "</p>";
                 }
 
                 string path = Server.MapPath("/Geral/Relatorios/RelatEventos" + Usu.Nome + ".html");
@@ -130,7 +133,7 @@ namespace SiteOlimpiadas.Site.Pages
                     Directory.CreateDirectory(directory);
                 }
 
-                StreamWriter writer = new StreamWriter(path, true, System.Text.Encoding.UTF8);
+                StreamWriter writer = new StreamWriter(path, false, System.Text.Encoding.UTF8);
                 writer.WriteLine(result);
                 writer.Flush();
                 writer.Close();
@@ -143,6 +146,12 @@ namespace SiteOlimpiadas.Site.Pages
                 msgErro.Text = ex.Message;
                 placeholder.Controls.Add(msgErro);
             }
+        }
+
+        protected void ddlEvento_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ddlEvento.SelectedValue == "2")
+                txtData.Visible = true;
         }
     }
 }

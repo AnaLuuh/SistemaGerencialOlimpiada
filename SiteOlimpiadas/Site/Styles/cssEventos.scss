@@ -20,6 +20,12 @@ font-size: 20px;
 text-align: right;
 }
 
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
+
 #sectionEvento {
 @include float(100px, 91%, 0, 5%);
 border-radius: 5px;
@@ -72,6 +78,12 @@ font-size: 20px;
 #sectionAdicionar {
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
 }
 
 #sectionEvento {
@@ -127,6 +139,11 @@ font-size: 20px;
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
 }
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
 
 #sectionEvento {
 @include float(100px, 91%, 0, 5%);
@@ -180,6 +197,12 @@ font-size: 20px;
 #sectionAdicionar {
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
+}
+
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
 }
 
 #sectionEvento {
@@ -237,6 +260,11 @@ font-size: 20px;
 text-align: right;
 }
 
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
 #sectionEvento {
 @include float(100px, 91%, 10px, 5%);
 border-radius: 5px;
@@ -291,7 +319,11 @@ font-size: 20px;
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
 }
-
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
 #sectionEvento {
 @include float(100px, 91%, 10px, 5%);
 border-radius: 5px;
@@ -345,6 +377,11 @@ font-size: 20px;
 #sectionAdicionar {
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
+}
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
 }
 
 #sectionEvento {
@@ -456,7 +493,11 @@ font-size: 20px;
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
 }
-
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
 #sectionEvento {
 @include float(100px, 91%, 10px, 5%);
 border-radius: 5px;
@@ -511,7 +552,11 @@ font-size: 20px;
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
 }
-
+.sectionTitle {
+@include float(50px, 90%, 30px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
 #sectionEvento {
 @include float(100px, 91%, 10px, 5%);
 border-radius: 5px;
@@ -528,7 +573,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -538,7 +583,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .Link {
@@ -567,6 +612,11 @@ font-size: 20px;
 text-align: right;
 }
 
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
 #sectionEvento {
 @include float(100px, 91%, 10px, 5%);
 border-radius: 5px;
@@ -578,12 +628,12 @@ padding-bottom: 15px;
 font-weight: bold;
 border-bottom: solid;
 border-bottom-color: $verde;
-padding-top: 10px;
+padding-top: 10px; 
 padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -593,7 +643,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .Link {
@@ -621,7 +671,11 @@ font-size: 20px;
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
 }
-
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
 #sectionEvento {
 @include float(100px, 91%, 10px, 5%);
 border-radius: 5px;
@@ -675,6 +729,11 @@ font-size: 20px;
 #sectionAdicionar {
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
+}
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
 }
 
 #sectionEvento {
@@ -731,7 +790,11 @@ font-size: 20px;
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
 }
-
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
 #sectionEvento {
 @include float(100px, 91%, 10px, 5%);
 border-radius: 5px;
@@ -786,7 +849,11 @@ font-size: 20px;
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
 }
-
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
 #sectionEvento {
 @include float(100px, 91%, 10px, 5%);
 border-radius: 5px;
@@ -841,7 +908,11 @@ font-size: 20px;
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
 }
-
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
 #sectionEvento {
 @include float(100px, 91%, 10px, 5%);
 border-radius: 5px;
@@ -895,6 +966,11 @@ font-size: 20px;
 #sectionAdicionar {
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
+}
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
 }
 
 #sectionEvento {
@@ -951,6 +1027,11 @@ font-size: 20px;
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
 }
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
 
 #sectionEvento {
 @include float(100px, 91%, 10px, 5%);
@@ -1006,7 +1087,11 @@ font-size: 20px;
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
 }
-
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
+}
 #sectionEvento {
 @include float(100px, 91%, 10px, 5%);
 border-radius: 5px;
@@ -1060,6 +1145,11 @@ font-size: 20px;
 #sectionAdicionar {
 @include float(50px, 90%, 10px, 5%);
 text-align: right;
+}
+.sectionTitle {
+@include float(50px, 90%, 10px, 5%);
+font-weight: bold;
+font-size: 30px;
 }
 
 #sectionEvento {

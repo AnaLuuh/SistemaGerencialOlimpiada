@@ -2,20 +2,22 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../Styles/cssEmitirRelatorio.min.css" rel="stylesheet" />
+    <link href="../Styles/cssHome.min.css" rel="stylesheet" />
     <link href="../Geral/UserControls/cssErro.min.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Conteudo" runat="server">
     <asp:PlaceHolder runat="server" ID="placeholder"></asp:PlaceHolder>
 
-    <section id="sectionEmitir">
+    <section id="sectionEmitir" style="font-size:20px">
         <section id="sectionTitle">
             Emitir Relatório de Eventos
         </section>
         <section id="sectionSelect">
-            <asp:DropDownList runat="server" ID="ddlEvento" CssClass="TextBox">
+            <asp:DropDownList runat="server" ID="ddlEvento" CssClass="TextBox" AutoPostBack="true" OnSelectedIndexChanged="ddlEvento_SelectedIndexChanged">
                 <asp:ListItem Value="1" Text="Modalidade"></asp:ListItem>
-                <asp:ListItem Value="2" Text="Data e Hora"></asp:ListItem>
+                <asp:ListItem Value="2" Text="Data"></asp:ListItem>
             </asp:DropDownList>
+            <asp:TextBox runat="server" ID="txtData" TextMode="Date" CssClass="TextBox" Visible="false"></asp:TextBox>
             <asp:Button runat="server" ID="btnFiltrar" Text="Filtrar" OnClick="btnFiltrar_Click" CssClass="Button" />
         </section>
         <asp:Repeater runat="server" ID="rptEventos">

@@ -25,6 +25,8 @@ namespace SiteOlimpiadas.Site.Master
 
             if (Usu != null)
             {
+                liLogin.Visible = false;
+                liSair.Visible = true;
                 liUser.Visible = true;
 
                 if (Usu.Perfil_ID == 8)
@@ -36,6 +38,7 @@ namespace SiteOlimpiadas.Site.Master
             {
                 liUser.Visible = false;
                 liAdmin.Visible = false;
+                liSair.Visible = false;
             }
         }
 
@@ -62,6 +65,12 @@ namespace SiteOlimpiadas.Site.Master
         protected void lnkEventos_Click(object sender, EventArgs e)
         {
             Response.Redirect("Eventos.aspx");
+        }
+
+        protected void lnkSair_Click(object sender, EventArgs e)
+        {
+            Util.Cookies.DeletaCookie("Usuario", Response, Request);
+            Response.Redirect("Home.aspx", false);
         }
     }
 }

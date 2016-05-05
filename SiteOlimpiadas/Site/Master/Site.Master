@@ -17,10 +17,6 @@
                 <section id="sectionLogo"></section>
                 <nav id="navUser">
                     <ul>
-                        <li id="liLogin" runat="server">
-                            <asp:Image runat="server" ID="imgLogin" ImageUrl="~/Imagens/login.png" Height="25px" />
-                            <asp:LinkButton runat="server" ID="lnkLogin" OnClick="lnkLogin_Click" Text="Login" CssClass="LinkMenu"></asp:LinkButton>
-                        </li>
                         <li id="liUser" runat="server">
                             <asp:LinkButton runat="server" ID="lnkDadosPessoais" OnClick="lnkDadosPessoais_Click" CssClass="LinkMenu" Text="Dados Pessoais"></asp:LinkButton>
                             <asp:LinkButton runat="server" ID="lnkComprar" OnClick="lnkComprar_Click" CssClass="LinkMenu" Text="Comprar Ingressos"></asp:LinkButton>
@@ -28,6 +24,13 @@
                         </li>
                         <li id="liAdmin" runat="server">
                             <asp:LinkButton runat="server" ID="lnkEventos" OnClick="lnkEventos_Click" CssClass="LinkMenu" Text="Eventos"></asp:LinkButton>
+                        </li>
+                        <li id="liLogin" runat="server">
+                            <asp:Image runat="server" ID="imgLogin" ImageUrl="~/Imagens/login.png" Height="25px" />
+                            <asp:LinkButton runat="server" ID="lnkLogin" OnClick="lnkLogin_Click" Text="Login" CssClass="LinkMenu"></asp:LinkButton>
+                        </li>
+                        <li id="liSair" runat="server">
+                            <asp:LinkButton runat="server" ID="lnkSair" OnClick="lnkSair_Click" Text="Sair" CssClass="LinkMenu"></asp:LinkButton>
                         </li>
                     </ul>
                 </nav>

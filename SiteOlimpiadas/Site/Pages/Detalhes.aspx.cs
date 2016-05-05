@@ -35,17 +35,20 @@ namespace SiteOlimpiadas.Site.Pages
         {
             try
             {
-                if (Usu == null)
-                    Response.Redirect("Login.aspx");
-
                 Evento evento = new EventoDAL().Obter(EventoID);
+                Ingresso ing = new IngressoDAL().ObterEvento(EventoID);
+                string valor;
+                if (ing == null)
+                    valor = "-";
+                else
+                    valor = "R$" + ing.Valor;
                 InformacaoBH info = new InformacaoDAL().Obter();
 
                 lblNomeEsporte.Text = evento.Modalidade.DescModalidade;
-                lblDescricao.Text = "<p>" + evento.NomeEvento + "</p><p>" + evento.Modalidade.InfoModalidade + "</p><p>Local:" + evento.Local.DescLocal + "</p>";
+                lblDescricao.Text = "<p><strong>" + evento.NomeEvento + "</strong></p><p>" + evento.Modalidade.InfoModalidade + "</p><p><strong>Data: </strong>" + evento.Data.ToShortDateString() + "</p><p><strong>Horário: </strong>" + evento.Horario + "</p><p><strong>Local:</strong> " + evento.Local.DescLocal + "</p><p><strong>Valor: " + valor + "</strong></p>";
 
                 if (evento.Local.DescLocal == "Belo Horizonte")
-                    lblDescricao.Text += "Sobre BH: " + info.Informacao;
+                    lblDescricao.Text += "<strong>Sobre BH: </strong>" + info.Informacao;
             }
             catch (Exception ex)
             {
@@ -59,7 +62,10 @@ namespace SiteOlimpiadas.Site.Pages
         {
             try
             {
-                Response.Redirect("ComprarIngresso.aspx?Evento=" + EventoID);
+                EventoUsuario ev = new EventoUsuario();
+                ev.Evento_ID = EventoID;
+                ev.Usuario_ID = Usu.ID;
+                ev.ID = new EventoUsuarioDAL().Adicionar(ev);
             }
             catch (Exception ex)
             {

@@ -31,6 +31,15 @@ namespace SiteOlimpiadas.Site.Pages {
         protected global::System.Web.UI.WebControls.DropDownList ddlEvento;
         
         /// <summary>
+        /// txtData control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtData;
+        
+        /// <summary>
         /// btnFiltrar control.
         /// </summary>
         /// <remarks>

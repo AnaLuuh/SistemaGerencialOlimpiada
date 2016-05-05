@@ -77,6 +77,15 @@ article.articleBotoes {
     height: 50px;
     text-align: right;
   }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
   #sectionEvento {
     float: left;
     width: 91%;
@@ -150,6 +159,15 @@ article.articleBotoes {
     margin-left: 5%;
     height: 50px;
     text-align: right;
+  }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
   }
   #sectionEvento {
     float: left;
@@ -225,6 +243,15 @@ article.articleBotoes {
     height: 50px;
     text-align: right;
   }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
   #sectionEvento {
     float: left;
     width: 91%;
@@ -298,6 +325,15 @@ article.articleBotoes {
     margin-left: 5%;
     height: 50px;
     text-align: right;
+  }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
   }
   #sectionEvento {
     float: left;
@@ -374,6 +410,15 @@ article.articleBotoes {
     height: 50px;
     text-align: right;
   }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
   #sectionEvento {
     float: left;
     width: 91%;
@@ -449,6 +494,15 @@ article.articleBotoes {
     height: 50px;
     text-align: right;
   }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
   #sectionEvento {
     float: left;
     width: 91%;
@@ -523,6 +577,15 @@ article.articleBotoes {
     margin-left: 5%;
     height: 50px;
     text-align: right;
+  }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
   }
   #sectionEvento {
     float: left;
@@ -674,6 +737,15 @@ article.articleBotoes {
     height: 50px;
     text-align: right;
   }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
   #sectionEvento {
     float: left;
     width: 91%;
@@ -749,6 +821,15 @@ article.articleBotoes {
     height: 50px;
     text-align: right;
   }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
   #sectionEvento {
     float: left;
     width: 91%;
@@ -772,7 +853,7 @@ article.articleBotoes {
   }
   .divTitle {
     float: left;
-    width: 25%;
+    width: 20%;
     margin-top: 0;
     margin-left: 0;
     height: 100%;
@@ -788,7 +869,7 @@ article.articleBotoes {
   }
   .divDados {
     float: left;
-    width: 25%;
+    width: 20%;
     margin-top: 0;
     margin-left: 0;
     height: 100%;
@@ -824,6 +905,15 @@ article.articleBotoes {
     height: 50px;
     text-align: right;
   }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
   #sectionEvento {
     float: left;
     width: 91%;
@@ -847,7 +937,7 @@ article.articleBotoes {
   }
   .divTitle {
     float: left;
-    width: 25%;
+    width: 20%;
     margin-top: 0;
     margin-left: 0;
     height: 100%;
@@ -863,7 +953,7 @@ article.articleBotoes {
   }
   .divDados {
     float: left;
-    width: 25%;
+    width: 20%;
     margin-top: 0;
     margin-left: 0;
     height: 100%;
@@ -898,6 +988,15 @@ article.articleBotoes {
     margin-left: 5%;
     height: 50px;
     text-align: right;
+  }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
   }
   #sectionEvento {
     float: left;
@@ -974,6 +1073,15 @@ article.articleBotoes {
     height: 50px;
     text-align: right;
   }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
   #sectionEvento {
     float: left;
     width: 91%;
@@ -1048,6 +1156,15 @@ article.articleBotoes {
     margin-left: 5%;
     height: 50px;
     text-align: right;
+  }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
   }
   #sectionEvento {
     float: left;
@@ -1124,6 +1241,15 @@ article.articleBotoes {
     height: 50px;
     text-align: right;
   }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
   #sectionEvento {
     float: left;
     width: 91%;
@@ -1198,6 +1324,15 @@ article.articleBotoes {
     margin-left: 5%;
     height: 50px;
     text-align: right;
+  }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
   }
   #sectionEvento {
     float: left;
@@ -1274,6 +1409,15 @@ article.articleBotoes {
     height: 50px;
     text-align: right;
   }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
   #sectionEvento {
     float: left;
     width: 91%;
@@ -1348,6 +1492,15 @@ article.articleBotoes {
     margin-left: 5%;
     height: 50px;
     text-align: right;
+  }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
   }
   #sectionEvento {
     float: left;
@@ -1424,6 +1577,15 @@ article.articleBotoes {
     height: 50px;
     text-align: right;
   }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
   #sectionEvento {
     float: left;
     width: 91%;
@@ -1498,6 +1660,15 @@ article.articleBotoes {
     margin-left: 5%;
     height: 50px;
     text-align: right;
+  }
+  .sectionTitle {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
   }
   #sectionEvento {
     float: left;

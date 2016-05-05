@@ -1,26 +1,35 @@
 ﻿a.Black {
   color: black;
-  text-decoration: none; }
-  a.Black:hover {
-    color: white; }
+  text-decoration: none;
+}
+
+a.Black:hover {
+  color: white;
+}
 
 a.Black1 {
   color: black;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 a.Red {
   color: #335ed8;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 a.White {
   color: #FFFFFF;
-  text-decoration: none; }
-  a.White:hover {
-    color: #DDDDDD; }
+  text-decoration: none;
+}
+
+a.White:hover {
+  color: #DDDDDD;
+}
 
 input[type=text].WhiteLarge {
   height: 60px;
-  width: 500px; }
+  width: 500px;
+}
 
 input[type=submit].buttonNormal {
   height: 60px;
@@ -31,28 +40,34 @@ input[type=submit].buttonNormal {
   background: #eee;
   color: #335ed8;
   border: none;
-  cursor: pointer; }
-  input[type=submit].buttonNormal:hover {
-    font-weight: bold; }
+  cursor: pointer;
+}
+
+input[type=submit].buttonNormal:hover {
+  font-weight: bold;
+}
 
 article.articleBotoes {
   float: left;
   margin: 40px 0;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+}
 
 @media only screen and (max-width: 300px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -64,21 +79,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 150px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 96%;
@@ -87,7 +105,8 @@ article.articleBotoes {
     height: 40%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: contain;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -100,32 +119,38 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 10px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -137,13 +162,15 @@ article.articleBotoes {
     background: #2E8B57;
     color: white;
     font-weight: bold;
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 60px; }
+    height: 60px;
+  }
   #navUser {
     float: left;
     width: 100%;
@@ -151,40 +178,48 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: center;
-    font-size: 14px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 10px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 10px; }
+    font-size: 14px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 10px;
+  }
   .buttonNormal {
-    font-size: 25px !important; } }
+    font-size: 25px !important;
+  }
+}
 
 @media only screen and (min-width: 301px) and (max-width: 400px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -196,21 +231,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 150px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 96%;
@@ -219,7 +257,8 @@ article.articleBotoes {
     height: 40%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: contain;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -233,33 +272,39 @@ article.articleBotoes {
     border-bottom-color: lightgray;
     text-align: center;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 3px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          /*padding-right: 3px;*/ }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 3px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /*padding-right: 3px;*/
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -270,13 +315,15 @@ article.articleBotoes {
     padding-top: 30px;
     background: #2E8B57;
     color: white;
-    font-weight: bold; }
+    font-weight: bold;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 60px; }
+    height: 60px;
+  }
   #navUser {
     float: left;
     width: 100%;
@@ -284,38 +331,45 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: center;
-    font-size: 14px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 10px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 10px; } }
+    font-size: 14px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 10px;
+  }
+}
 
 @media only screen and (min-width: 401px) and (max-width: 480px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -327,21 +381,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 150px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 96%;
@@ -350,7 +407,8 @@ article.articleBotoes {
     height: 40%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: contain;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -364,34 +422,40 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 5px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          /*border-right: solid;*/
-          /*padding-right: 20px;*/ }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /*border-right: solid;*/
+    /*padding-right: 20px;*/
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -402,13 +466,15 @@ article.articleBotoes {
     padding-top: 30px;
     background: #2E8B57;
     color: white;
-    font-weight: bold; }
+    font-weight: bold;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 30px; }
+    height: 30px;
+  }
   #navUser {
     float: left;
     width: 100%;
@@ -416,38 +482,45 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: center;
-    font-size: 14px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 10px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 10px; } }
+    font-size: 14px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 10px;
+  }
+}
 
 @media only screen and (min-width: 481px) and (max-width: 540px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -459,21 +532,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 150px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 96%;
@@ -482,7 +558,8 @@ article.articleBotoes {
     height: 40%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: contain;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -496,34 +573,40 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 12px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 10px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 12px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 10px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -534,13 +617,15 @@ article.articleBotoes {
     padding-top: 30px;
     background: #2E8B57;
     color: white;
-    font-weight: bold; }
+    font-weight: bold;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 30px; }
+    height: 30px;
+  }
   #navUser {
     float: left;
     width: 100%;
@@ -548,38 +633,45 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: center;
-    font-size: 14px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 10px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 10px; } }
+    font-size: 14px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 10px;
+  }
+}
 
 @media only screen and (min-width: 541px) and (max-width: 640px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -591,21 +683,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 80px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 35%;
@@ -614,7 +709,8 @@ article.articleBotoes {
     height: 70%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: contain;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -627,34 +723,40 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 25px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 25px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -665,13 +767,15 @@ article.articleBotoes {
     padding-top: 30px;
     background: #2E8B57;
     color: white;
-    font-weight: bold; }
+    font-weight: bold;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 60%;
@@ -679,38 +783,45 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 12px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 10px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 5px; } }
+    font-size: 12px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 5px;
+  }
+}
 
 @media only screen and (min-width: 641px) and (max-width: 700px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -722,21 +833,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 80px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 35%;
@@ -745,7 +859,8 @@ article.articleBotoes {
     height: 70%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: contain;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -758,34 +873,40 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 25px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 25px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -796,13 +917,15 @@ article.articleBotoes {
     padding-top: 30px;
     background: #2E8B57;
     color: white;
-    font-weight: bold; }
+    font-weight: bold;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 60%;
@@ -810,38 +933,45 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 12px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 10px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 5px; } }
+    font-size: 12px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 5px;
+  }
+}
 
 @media only screen and (min-width: 701px) and (max-width: 740px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -853,21 +983,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 80px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 35%;
@@ -876,7 +1009,8 @@ article.articleBotoes {
     height: 70%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: contain;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -889,34 +1023,40 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 25px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 25px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -927,13 +1067,15 @@ article.articleBotoes {
     padding-top: 30px;
     background: #2E8B57;
     color: white;
-    font-weight: bold; }
+    font-weight: bold;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 60%;
@@ -941,38 +1083,45 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 12px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 10px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 5px; } }
+    font-size: 12px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 5px;
+  }
+}
 
 @media only screen and (min-width: 741px) and (max-width: 790px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -984,21 +1133,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 80px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 35%;
@@ -1007,7 +1159,8 @@ article.articleBotoes {
     height: 70%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: contain;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -1020,34 +1173,40 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -1058,13 +1217,15 @@ article.articleBotoes {
     padding-top: 30px;
     background: #2E8B57;
     color: white;
-    font-weight: bold; }
+    font-weight: bold;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 60%;
@@ -1072,38 +1233,45 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 15px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 20px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 20px; } }
+    font-size: 15px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 20px;
+  }
+}
 
 @media only screen and (min-width: 791px) and (max-width: 1000px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -1115,21 +1283,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 80px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 35%;
@@ -1138,7 +1309,8 @@ article.articleBotoes {
     height: 70%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: contain;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -1151,34 +1323,40 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -1189,13 +1367,15 @@ article.articleBotoes {
     padding-top: 35px;
     background: #2E8B57;
     color: white;
-    font-weight: bold; }
+    font-weight: bold;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 60%;
@@ -1203,38 +1383,45 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 15px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 10px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 20px; } }
+    font-size: 15px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 20px;
+  }
+}
 
 @media only screen and (min-width: 1001px) and (max-width: 1080px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -1246,21 +1433,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 100px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 30%;
@@ -1269,7 +1459,8 @@ article.articleBotoes {
     height: 60%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: 30% 100%;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -1282,33 +1473,39 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 25px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -1320,13 +1517,15 @@ article.articleBotoes {
     background: #2E8B57;
     color: white;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 18px;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 65%;
@@ -1334,38 +1533,44 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 18px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; } }
+    font-size: 18px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+}
 
 @media only screen and (min-width: 1081px) and (max-width: 1200px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -1377,21 +1582,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 100px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 30%;
@@ -1400,7 +1608,8 @@ article.articleBotoes {
     height: 60%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: 30% 100%;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -1413,33 +1622,39 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 40px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -1451,13 +1666,15 @@ article.articleBotoes {
     background: #2E8B57;
     color: white;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 18px;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 65%;
@@ -1465,38 +1682,44 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 18px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; } }
+    font-size: 18px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+}
 
 @media only screen and (min-width: 1201px) and (max-width: 1360px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -1508,21 +1731,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 100px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 28%;
@@ -1531,7 +1757,8 @@ article.articleBotoes {
     height: 60%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: 30% 100%;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -1544,33 +1771,39 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 40px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -1582,13 +1815,15 @@ article.articleBotoes {
     background: #2E8B57;
     color: white;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 18px;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 65%;
@@ -1596,38 +1831,44 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 18px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; } }
+    font-size: 18px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+}
 
 @media only screen and (min-width: 1361px) and (max-width: 1400px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -1639,21 +1880,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 100px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 30%;
@@ -1662,7 +1906,8 @@ article.articleBotoes {
     height: 60%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: 30% 100%;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -1675,33 +1920,39 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 40px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -1713,13 +1964,15 @@ article.articleBotoes {
     background: #2E8B57;
     color: white;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 18px;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 65%;
@@ -1727,38 +1980,44 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 18px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; } }
+    font-size: 18px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+}
 
 @media only screen and (min-width: 1401px) and (max-width: 1550px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -1770,21 +2029,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 100px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 30%;
@@ -1793,7 +2055,8 @@ article.articleBotoes {
     height: 60%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: 30% 100%;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -1806,33 +2069,39 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 40px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -1844,13 +2113,15 @@ article.articleBotoes {
     background: #2E8B57;
     color: white;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 18px;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 65%;
@@ -1858,38 +2129,44 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 18px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; } }
+    font-size: 18px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+}
 
 @media only screen and (min-width: 1551px) and (max-width: 1800px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -1901,21 +2178,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 100px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 30%;
@@ -1924,7 +2204,8 @@ article.articleBotoes {
     height: 60%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: 30% 100%;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -1937,33 +2218,39 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 40px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -1975,13 +2262,15 @@ article.articleBotoes {
     background: #2E8B57;
     color: white;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 18px;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 65%;
@@ -1989,38 +2278,44 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 18px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; } }
+    font-size: 18px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+}
 
 @media only screen and (min-width: 1801px) and (max-width: 1980px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -2032,21 +2327,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 100px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 30%;
@@ -2055,7 +2353,8 @@ article.articleBotoes {
     height: 60%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: 30% 100%;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -2068,33 +2367,39 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 40px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -2106,13 +2411,15 @@ article.articleBotoes {
     background: #2E8B57;
     color: white;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 18px;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 65%;
@@ -2120,38 +2427,44 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 18px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; } }
+    font-size: 18px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+}
 
 @media only screen and (min-width: 1981px) and (max-width: 2400px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -2163,21 +2476,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 100px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 30%;
@@ -2186,7 +2502,8 @@ article.articleBotoes {
     height: 60%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: 30% 100%;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -2199,33 +2516,39 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 40px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -2237,13 +2560,15 @@ article.articleBotoes {
     background: #2E8B57;
     color: white;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 18px;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 65%;
@@ -2251,38 +2576,44 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 18px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; } }
+    font-size: 18px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+}
 
 @media only screen and (min-width: 2401px) and (max-width: 2700px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -2294,21 +2625,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 100px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 30%;
@@ -2317,7 +2651,8 @@ article.articleBotoes {
     height: 60%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: 30% 100%;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -2330,33 +2665,39 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 40px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -2368,13 +2709,15 @@ article.articleBotoes {
     background: #2E8B57;
     color: white;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 18px;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 65%;
@@ -2382,38 +2725,44 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 18px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; } }
+    font-size: 18px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+}
 
 @media only screen and (min-width: 2701px) and (max-width: 3100px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -2425,21 +2774,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 100px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 30%;
@@ -2448,7 +2800,8 @@ article.articleBotoes {
     height: 60%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: 30% 100%;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -2461,33 +2814,39 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 40px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -2499,13 +2858,15 @@ article.articleBotoes {
     background: #2E8B57;
     color: white;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 18px;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 65%;
@@ -2513,38 +2874,44 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 18px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; } }
+    font-size: 18px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+}
 
 @media only screen and (min-width: 3101px) {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionPage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 1000px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   h2 {
     margin: 0;
     padding: 0;
@@ -2556,21 +2923,24 @@ article.articleBotoes {
     font-weight: bold;
     font-size: 20px;
     color: #2E8B57;
-    border-bottom: 2px solid #2E8B57; }
+    border-bottom: 2px solid #2E8B57;
+  }
   h3 {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI';
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #sectionHeader {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     height: 100px;
-    /*background-color: #eee;*/ }
+    /*background-color: #eee;*/
+  }
   #sectionLogo {
     float: left;
     width: 30%;
@@ -2579,7 +2949,8 @@ article.articleBotoes {
     height: 60%;
     background: url(../../Imagens/LogoRio.jpg) no-repeat;
     background-size: 30% 100%;
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #navMenu {
     float: left;
     width: 98%;
@@ -2592,33 +2963,39 @@ article.articleBotoes {
     border-bottom: solid;
     border-bottom-color: lightgray;
     background: #2E8B57;
-    padding-top: 10px; }
-    #navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navMenu ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: white; }
-        #navMenu ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-          padding-right: 40px; }
-          #navMenu ul li a:hover {
-            color: lightgray; }
+    padding-top: 10px;
+  }
+  #navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navMenu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  #navMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 40px;
+  }
+  #navMenu ul li a:hover {
+    color: lightgray;
+  }
   #articlePage {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
     min-height: 700px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+  }
   #footerPage {
     float: left;
     width: 100%;
@@ -2630,36 +3007,44 @@ article.articleBotoes {
     background: #2E8B57;
     color: white;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 18px;
+  }
   .divLinha {
     float: left;
     width: 100%;
     margin-top: 0;
     margin-left: 0;
-    height: 40px; }
+    height: 40px;
+  }
   #navUser {
     float: left;
     width: 65%;
-    margin-top: 40px;
+    margin-top: 0;
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 18px; }
-    #navUser ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-      #navUser ul li {
-        display: inline;
-        position: relative;
-        margin-left: 40px;
-        text-decoration: none;
-        color: #2E8B57; }
-        #navUser ul li a {
-          display: inline-block;
-          text-decoration: none;
-          color: #2E8B57;
-          font-weight: bold;
-          /*border-right: solid;*/
-          padding-right: 40px; } }
+    font-size: 18px;
+  }
+  #navUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navUser ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #2E8B57;
+  }
+  #navUser ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+    /*border-right: solid;*/
+    padding-right: 25px;
+  }
+}
+
+/*# sourceMappingURL=cssMaster.css.map */

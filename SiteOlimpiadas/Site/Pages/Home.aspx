@@ -9,14 +9,6 @@
         <asp:PlaceHolder runat="server" ID="placeholder"></asp:PlaceHolder>
 
         <section id="sectionDados">
-            <section id="sectionFiltro">
-                <asp:DropDownList runat="server" ID="ddlFiltro" CssClass="TextBox">
-                    <asp:ListItem Value="1" Text="Data"></asp:ListItem>
-                    <asp:ListItem Value="2" Text="Local"></asp:ListItem>
-                </asp:DropDownList>
-                <asp:TextBox runat="server" ID="txtFiltro" CssClass="TextBox"></asp:TextBox>
-                <asp:Button runat="server" ID="btnFiltrar" Text="Filtrar" OnClick="btnFiltrar_Click" CssClass="Button" />
-            </section>
             <asp:Repeater runat="server" ID="rptEventos">
                 <ItemTemplate>
                     <section class="sectionTitle">

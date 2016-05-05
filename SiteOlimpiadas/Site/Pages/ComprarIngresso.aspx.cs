@@ -13,24 +13,6 @@ namespace SiteOlimpiadas.Site.Pages
     {
         Site.Geral.UserControls.UserErro msgErro;
 
-        public int EventoID
-        {
-            get
-            {
-                try
-                {
-                    if (Request.QueryString["EventoID"] != null)
-                        return Convert.ToInt32(Util.Criptografia.Decriptar(Geral.CRIPTO.CHAVE, Geral.CRIPTO.VETOR, Request.QueryString["EventoID"].ToString()));
-
-                    return 0;
-                }
-                catch (Exception)
-                {
-                    return 0;
-                }
-            }
-        }
-
         protected void Page_Load(object sender, EventArgs e)
         {
             try
@@ -40,12 +22,6 @@ namespace SiteOlimpiadas.Site.Pages
 
                 if (!IsPostBack)
                     CarregaDados();
-
-                if (EventoID != 0)
-                {
-                    ddlEvento.ClearSelection();
-                    ddlEvento.Items.FindByValue(EventoID.ToString()).Selected = true;
-                }
             }
             catch (Exception ex)
             {
@@ -79,9 +55,14 @@ namespace SiteOlimpiadas.Site.Pages
             try
             {
                 Evento evento = new EventoDAL().Obter(Convert.ToInt32(ddlEvento.SelectedItem.Value));
-                Ingresso ingresso = new IngressoDAL().ObterEvento(Convert.ToInt32(ddlEvento.SelectedItem.Value));
+                Ingresso ing = new IngressoDAL().ObterEvento(Convert.ToInt32(ddlEvento.SelectedItem.Value));
+                string valor;
+                if (ing == null)
+                    valor = "-";
+                else
+                    valor = "R$" + ing.Valor;
 
-                lblDescricao.Text = "<p>" + evento.NomeEvento + "</p><p>" + evento.Modalidade.InfoModalidade + "</p><p>Local: " + evento.Local + "</p><p>Valor: " + ingresso.Valor + "</p>";
+                lblDescricao.Text = "<p><strong>" + evento.NomeEvento + "</strong></p><p><strong>Data: </strong>" + evento.Data.ToShortDateString() + "</p><p><strong>Horário: </strong> " + evento.Horario + "<p><strong>Local: </strong>" + evento.Local.DescLocal + "</p><p><strong>Valor: </strong>" + valor + "</p>";
             }
             catch (Exception ex)
             {
@@ -96,9 +77,9 @@ namespace SiteOlimpiadas.Site.Pages
             try
             {
                 EventoUsuario ev = new EventoUsuario();
-                ev.Evento_ID = EventoID;
+                ev.Evento_ID = Convert.ToInt32(ddlEvento.SelectedValue);
                 ev.Usuario_ID = Usu.ID;
-                new EventoUsuarioDAL().Adicionar(ev);
+                ev.ID = new EventoUsuarioDAL().Adicionar(ev);
             }
             catch (Exception ex)
             {

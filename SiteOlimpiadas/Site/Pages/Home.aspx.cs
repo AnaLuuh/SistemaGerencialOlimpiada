@@ -59,41 +59,6 @@ namespace SiteOlimpiadas.Site.Pages
             }
         }
 
-        protected void btnFiltrar_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                DataTable dt = new DataTable();
-                dt.Columns.Add("Modalidade");
-                dt.Columns.Add("Evento");
-                dt.Columns.Add("Local");
-                dt.Columns.Add("Data");
-                dt.Columns.Add("Horario");
-                dt.Columns.Add("ID");
-
-                List<Evento> lstEventos = new List<Evento>();
-
-                if (ddlFiltro.SelectedItem.Value == "1")
-                    lstEventos = new EventoDAL().Listar().AsEnumerable().Where(a => a.Data == Convert.ToDateTime(txtFiltro.Text)).ToList();
-                if (ddlFiltro.SelectedItem.Value == "2")
-                    lstEventos = new EventoDAL().Listar().Where(a => a.Local.DescLocal == txtFiltro.Text).ToList();
-
-                foreach (Evento ev in lstEventos)
-                {
-                    dt.Rows.Add(ev.Modalidade.DescModalidade, ev.NomeEvento, ev.Local.DescLocal, ev.Data.ToShortDateString(), ev.Horario, ev.ID);
-                }
-
-                rptEventos.DataSource = dt;
-                rptEventos.DataBind();
-            }
-            catch (Exception ex)
-            {
-                msgErro = (Geral.UserControls.UserErro)LoadControl("../Geral/UserControls/UserErro.ascx");
-                msgErro.Text = ex.Message;
-                placeholder.Controls.Add(msgErro);
-            }         
-        }
-
         protected void lnkVerDetahes_Command(object sender, CommandEventArgs e)
         {
             try

@@ -20,7 +20,7 @@ namespace SiteOlimpiadas.Site.Pages
                 try
                 {
                     if (Request.QueryString["EventoID"] != null)
-                        return Convert.ToInt32(Util.Criptografia.Decriptar(Geral.CRIPTO.CHAVE, Geral.CRIPTO.VETOR, Request.QueryString["EventoID"].ToString()));
+                        return Convert.ToInt32(Request.QueryString["EventoID"].ToString());
 
                     return 0;
                 }
@@ -39,10 +39,12 @@ namespace SiteOlimpiadas.Site.Pages
                     Response.Redirect("Login.aspx");
 
                 if (!IsPostBack)
+                {
                     CarregaDrop();
 
-                if (EventoID > 0)
-                    CarregaEvento();
+                    if (EventoID > 0)
+                        CarregaEvento();
+                }            
             }
             catch (Exception ex)
             {
@@ -62,7 +64,7 @@ namespace SiteOlimpiadas.Site.Pages
                 ddlModalidade.Items.FindByValue(evento.Modalidade_ID.ToString()).Selected = true;
                 ddlLocal.ClearSelection();
                 ddlLocal.Items.FindByValue(evento.Local_ID.ToString()).Selected = true;
-                txtData.Text = evento.Data.ToShortDateString();
+                txtData.Text = evento.Data.ToString("yyyy-MM-dd");
                 txtHorario.Text = evento.Horario;
             }
             catch (Exception ex)
@@ -116,13 +118,11 @@ namespace SiteOlimpiadas.Site.Pages
                     ev.ID = EventoID;
                     ed.Atualizar(ev);
                     lblSucesso.Text = "Evento Editado com Sucesso!";
-                    Response.Redirect("Eventos.aspx");
                 }
                 else
                 {
                     ev.ID = ed.Adicionar(ev);
                     lblSucesso.Text = "Evento Adicionado com Sucesso!";
-                    Response.Redirect("Eventos.aspx");
                 }
             }
             catch (Exception ex)

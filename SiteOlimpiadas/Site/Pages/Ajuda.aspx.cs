@@ -18,9 +18,6 @@ namespace SiteOlimpiadas.Site.Pages
         {
             try
             {
-                if (Usu == null)
-                    Response.Redirect("Login.aspx");
-
                 if (!IsPostBack)
                 {
                     CarregaLinks();
