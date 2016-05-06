@@ -1383,7 +1383,7 @@ article.articleBotoes {
     margin-left: 0;
     height: 40px;
     text-align: right;
-    font-size: 15px;
+    font-size: 14px;
   }
   #navUser ul {
     margin: 0;
@@ -1404,7 +1404,7 @@ article.articleBotoes {
     color: #2E8B57;
     font-weight: bold;
     /*border-right: solid;*/
-    padding-right: 20px;
+    padding-right: 10px;
   }
 }
 
@@ -2496,7 +2496,7 @@ article.articleBotoes {
   }
   #sectionLogo {
     float: left;
-    width: 30%;
+    width: 20%;
     margin-top: 20px;
     margin-left: 2%;
     height: 60%;
@@ -2645,7 +2645,7 @@ article.articleBotoes {
   }
   #sectionLogo {
     float: left;
-    width: 30%;
+    width: 20%;
     margin-top: 20px;
     margin-left: 2%;
     height: 60%;
@@ -2794,7 +2794,7 @@ article.articleBotoes {
   }
   #sectionLogo {
     float: left;
-    width: 30%;
+    width: 20%;
     margin-top: 20px;
     margin-left: 2%;
     height: 60%;
@@ -2943,7 +2943,7 @@ article.articleBotoes {
   }
   #sectionLogo {
     float: left;
-    width: 30%;
+    width: 20%;
     margin-top: 20px;
     margin-left: 2%;
     height: 60%;

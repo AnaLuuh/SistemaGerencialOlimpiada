@@ -22,6 +22,7 @@ namespace SiteOlimpiadas.Site.Pages
                 {
                     CarregaLinks();
                     sectionLoginPopUp.Style.Add("display", "none");
+                    sectionLoginPopUp.ClientIDMode = System.Web.UI.ClientIDMode.Static;
                 }          
             }
             catch (Exception ex)
@@ -66,6 +67,20 @@ namespace SiteOlimpiadas.Site.Pages
                 Tutorial t = new TutorialDAL().Obter(IDTutorial);
                 lblDescricao.Text = t.DescTutorial;
                 sectionLoginPopUp.Style.Add("display", "block");                
+            }
+            catch (Exception ex)
+            {
+                msgErro = (Geral.UserControls.UserErro)LoadControl("../Geral/UserControls/UserErro.ascx");
+                msgErro.Text = ex.Message;
+                placeholder.Controls.Add(msgErro);
+            }
+        }
+
+        protected void lnkFechar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                sectionLoginPopUp.Style.Add("display", "none");
             }
             catch (Exception ex)
             {

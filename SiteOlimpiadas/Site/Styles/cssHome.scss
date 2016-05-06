@@ -502,7 +502,7 @@ padding: 0;
 @include float(1000px, 100%, 0, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 15px;
 }
 
 #sectionFiltro {
@@ -532,7 +532,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -542,7 +542,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {
@@ -585,7 +585,7 @@ padding: 0;
 @include float(1000px, 100%, 0, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 17px;
 }
 
 #sectionFiltro {
@@ -615,7 +615,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -625,7 +625,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {
@@ -698,7 +698,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -708,7 +708,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {
@@ -748,10 +748,10 @@ padding: 0;
 }
 
 #sectionHome {
-@include float(1000px, 100%, 0, 0, true);
+@include float(1000px, 100%, 30px, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 17px;
 }
 
 #sectionFiltro {
@@ -772,7 +772,7 @@ padding-bottom: 15px;
 }
 
 #sectionTitleEvento {
-@include float(50%, 99%);
+@include float(30%, 99%);
 font-weight: bold;
 border-bottom: solid;
 border-bottom-color: $verde;
@@ -834,7 +834,7 @@ padding: 0;
 @include float(1000px, 100%, 0, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 18px;
 }
 
 #sectionFiltro {
@@ -864,7 +864,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -874,7 +874,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {
@@ -917,7 +917,7 @@ padding: 0;
 @include float(1000px, 100%, 0, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 18px;
 }
 
 #sectionFiltro {
@@ -938,7 +938,7 @@ padding-bottom: 15px;
 }
 
 #sectionTitleEvento {
-@include float(50%, 99%);
+@include float(30%, 99%);
 font-weight: bold;
 border-bottom: solid;
 border-bottom-color: $verde;
@@ -947,7 +947,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -957,7 +957,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {
@@ -1000,7 +1000,7 @@ padding: 0;
 @include float(1000px, 100%, 0, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 18px;
 }
 
 #sectionFiltro {
@@ -1021,7 +1021,7 @@ padding-bottom: 15px;
 }
 
 #sectionTitleEvento {
-@include float(50%, 99%);
+@include float(30%, 99%);
 font-weight: bold;
 border-bottom: solid;
 border-bottom-color: $verde;
@@ -1030,7 +1030,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -1040,7 +1040,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {
@@ -1083,7 +1083,7 @@ padding: 0;
 @include float(1000px, 100%, 0, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 18px;
 }
 
 #sectionFiltro {
@@ -1104,7 +1104,7 @@ padding-bottom: 15px;
 }
 
 #sectionTitleEvento {
-@include float(50%, 99%);
+@include float(30%, 99%);
 font-weight: bold;
 border-bottom: solid;
 border-bottom-color: $verde;
@@ -1113,7 +1113,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -1123,7 +1123,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {
@@ -1166,7 +1166,7 @@ padding: 0;
 @include float(1000px, 100%, 0, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 18px;
 }
 
 #sectionFiltro {
@@ -1187,7 +1187,7 @@ padding-bottom: 15px;
 }
 
 #sectionTitleEvento {
-@include float(50%, 99%);
+@include float(30%, 99%);
 font-weight: bold;
 border-bottom: solid;
 border-bottom-color: $verde;
@@ -1196,7 +1196,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -1206,7 +1206,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {
@@ -1249,7 +1249,7 @@ padding: 0;
 @include float(1000px, 100%, 0, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 18px;
 }
 
 #sectionFiltro {
@@ -1270,7 +1270,7 @@ padding-bottom: 15px;
 }
 
 #sectionTitleEvento {
-@include float(50%, 99%);
+@include float(30%, 99%);
 font-weight: bold;
 border-bottom: solid;
 border-bottom-color: $verde;
@@ -1279,7 +1279,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -1289,7 +1289,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {
@@ -1332,7 +1332,7 @@ padding: 0;
 @include float(1000px, 100%, 0, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 18px;
 }
 
 #sectionFiltro {
@@ -1362,7 +1362,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -1372,7 +1372,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {
@@ -1415,7 +1415,7 @@ padding: 0;
 @include float(1000px, 100%, 0, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 18px;
 }
 
 #sectionFiltro {
@@ -1445,7 +1445,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -1455,7 +1455,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {
@@ -1498,7 +1498,7 @@ padding: 0;
 @include float(1000px, 100%, 0, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 18px;
 }
 
 #sectionFiltro {
@@ -1528,7 +1528,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -1538,7 +1538,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {
@@ -1581,7 +1581,7 @@ padding: 0;
 @include float(1000px, 100%, 0, 0, true);
 padding-bottom: 50px;
 font-family: 'Segoe UI';
-font-size: 20px;
+font-size: 18px;
 }
 
 #sectionFiltro {
@@ -1611,7 +1611,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 #sectionDadosEvento {
@@ -1621,7 +1621,7 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+@include float(100%, 20%);
 }
 
 .TextBox {

@@ -640,7 +640,7 @@ padding: 0;
 #sectionEmitir {
 @include float(700px, 100%, 0, 0, true);
 padding-bottom: 50px;
-font-family: 'Segoe UI';
+font-family: 'Segoe UI'; 
 }
 
 #sectionTitle {
@@ -674,7 +674,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+width: 25% !important;
 }
 
 #sectionDadosEvento {
@@ -684,7 +684,8 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+width: 25% !important;
+font-size:17px;
 }
 
 .TextBox {
@@ -719,7 +720,7 @@ padding: 0;
 #sectionEmitir {
 @include float(700px, 100%, 0, 0, true);
 padding-bottom: 50px;
-font-family: 'Segoe UI';
+font-family: 'Segoe UI'; 
 }
 
 #sectionTitle {
@@ -753,7 +754,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+width: 25% !important;
 }
 
 #sectionDadosEvento {
@@ -763,7 +764,8 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+width: 25% !important;
+font-size:17px;
 }
 
 .TextBox {
@@ -798,7 +800,7 @@ padding: 0;
 #sectionEmitir {
 @include float(700px, 100%, 0, 0, true);
 padding-bottom: 50px;
-font-family: 'Segoe UI';
+font-family: 'Segoe UI'; 
 }
 
 #sectionTitle {
@@ -832,7 +834,7 @@ padding-left: 10px;
 }
 
 .divTitle {
-@include float(100%, 25%);
+width: 25% !important;
 }
 
 #sectionDadosEvento {
@@ -842,7 +844,8 @@ padding-left: 10px;
 }
 
 .divDados {
-@include float(100%, 25%);
+width: 25% !important;
+font-size:17px;
 }
 
 .TextBox {

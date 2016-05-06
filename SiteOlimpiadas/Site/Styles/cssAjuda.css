@@ -1,26 +1,35 @@
 ﻿a.Black {
   color: black;
-  text-decoration: none; }
-  a.Black:hover {
-    color: white; }
+  text-decoration: none;
+}
+
+a.Black:hover {
+  color: white;
+}
 
 a.Black1 {
   color: black;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 a.Red {
   color: #335ed8;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 a.White {
   color: #FFFFFF;
-  text-decoration: none; }
-  a.White:hover {
-    color: #DDDDDD; }
+  text-decoration: none;
+}
+
+a.White:hover {
+  color: #DDDDDD;
+}
 
 input[type=text].WhiteLarge {
   height: 60px;
-  width: 500px; }
+  width: 500px;
+}
 
 input[type=submit].buttonNormal {
   height: 60px;
@@ -31,20 +40,25 @@ input[type=submit].buttonNormal {
   background: #eee;
   color: #335ed8;
   border: none;
-  cursor: pointer; }
-  input[type=submit].buttonNormal:hover {
-    font-weight: bold; }
+  cursor: pointer;
+}
+
+input[type=submit].buttonNormal:hover {
+  font-weight: bold;
+}
 
 article.articleBotoes {
   float: left;
   margin: 40px 0;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+}
 
 @media only screen and (max-width: 300px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -52,19 +66,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -72,7 +89,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 100px);
@@ -81,14 +99,16 @@ article.articleBotoes {
     width: 200px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: auto;
@@ -97,12 +117,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 301px) and (max-width: 400px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -110,19 +133,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -130,7 +156,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 120px);
@@ -139,14 +166,16 @@ article.articleBotoes {
     width: 300px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: auto;
@@ -155,12 +184,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 401px) and (max-width: 480px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -168,19 +200,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -188,7 +223,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: 50px;
@@ -197,14 +233,16 @@ article.articleBotoes {
     width: 380px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -213,12 +251,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 481px) and (max-width: 540px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -226,19 +267,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -246,7 +290,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: 50px;
@@ -255,14 +300,16 @@ article.articleBotoes {
     width: 380px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -271,12 +318,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 541px) and (max-width: 640px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -284,19 +334,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -304,7 +357,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: 150px;
@@ -313,14 +367,16 @@ article.articleBotoes {
     width: 380px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -329,12 +385,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 641px) and (max-width: 700px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -342,19 +401,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -362,7 +424,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: 150px;
@@ -371,14 +434,16 @@ article.articleBotoes {
     width: 380px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -387,12 +452,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 701px) and (max-width: 740px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -400,19 +468,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -420,7 +491,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: 150px;
@@ -429,14 +501,16 @@ article.articleBotoes {
     width: 380px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -445,12 +519,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 741px) and (max-width: 790px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -458,19 +535,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -478,7 +558,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -487,14 +568,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -503,12 +586,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 791px) and (max-width: 1000px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -516,19 +602,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -536,7 +625,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -545,14 +635,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -561,12 +653,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 1001px) and (max-width: 1080px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -574,19 +669,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -594,7 +692,7 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -603,14 +701,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -619,12 +719,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 1081px) and (max-width: 1200px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -632,19 +735,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -652,7 +758,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -661,14 +768,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -677,12 +786,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 1201px) and (max-width: 1360px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -690,19 +802,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -710,7 +825,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -719,14 +835,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -735,12 +853,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 1361px) and (max-width: 1400px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -748,19 +869,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -768,7 +892,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -777,14 +902,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -793,12 +920,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 1401px) and (max-width: 1550px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -806,19 +936,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -826,7 +959,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -835,14 +969,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -851,12 +987,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 1551px) and (max-width: 1800px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -864,19 +1003,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -884,7 +1026,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -893,14 +1036,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -909,12 +1054,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 1801px) and (max-width: 1980px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -922,19 +1070,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -942,7 +1093,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -951,14 +1103,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -967,12 +1121,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 1981px) and (max-width: 2400px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -980,19 +1137,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -1000,7 +1160,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -1009,14 +1170,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -1025,12 +1188,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 2401px) and (max-width: 2700px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -1038,19 +1204,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -1058,7 +1227,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -1067,14 +1237,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -1083,12 +1255,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 2701px) and (max-width: 3100px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -1096,19 +1271,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -1116,7 +1294,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -1125,14 +1304,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -1141,12 +1322,15 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
 
 @media only screen and (min-width: 3101px) {
   body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   #sectionAjuda {
     float: left;
     width: 100%;
@@ -1154,19 +1338,22 @@ article.articleBotoes {
     margin-left: 0;
     min-height: 700px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI'; }
+    font-family: 'Segoe UI';
+  }
   #sectionLinks {
     float: left;
     width: 90%;
     margin-top: 10px;
     margin-left: 5%;
-    height: auto; }
+    height: auto;
+  }
   .Link {
     text-decoration: none;
     font-weight: bold;
     color: #2E8B57;
-    font-size: 23px; }
-  #sectionLoginPopUp {
+    font-size: 23px;
+  }
+  #Conteudo_sectionLoginPopUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -1174,7 +1361,8 @@ article.articleBotoes {
     width: 100%;
     font-family: 'Segoe UI';
     background: rgba(0, 0, 0, 0.8);
-    z-index: 10; }
+    z-index: 10;
+  }
   #sectionModal {
     position: fixed;
     top: calc(50% - 220px);
@@ -1183,14 +1371,16 @@ article.articleBotoes {
     width: 700px;
     background: white;
     border-radius: 20px;
-    border-top: none; }
+    border-top: none;
+  }
   #sectionFechar {
     float: left;
     width: 98%;
     margin-top: 5px;
     margin-left: 0;
     height: auto;
-    text-align: right; }
+    text-align: right;
+  }
   #sectionDescricao {
     float: left;
     height: 400px;
@@ -1199,4 +1389,8 @@ article.articleBotoes {
     font-size: 30px;
     text-align: center;
     line-height: 60px;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+  }
+}
+
+/*# sourceMappingURL=cssAjuda.css.map */

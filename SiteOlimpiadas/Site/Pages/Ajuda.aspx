@@ -18,7 +18,7 @@
         <section id="sectionLoginPopUp" style="display: none" runat="server">
             <section id="sectionModal" style="background:#eee">
                 <section id="sectionFechar">
-                    <asp:LinkButton runat="server" ID="lnkFechar" Text="Fechar" OnClientClick="$('#sectionLoginPopUp').css('display', 'none'); return false;" CssClass="Link"></asp:LinkButton>
+                    <asp:LinkButton runat="server" ID="lnkFechar" Text="Fechar" OnClick="lnkFechar_Click" CssClass="Link"></asp:LinkButton>
                 </section>
                 <section id="sectionDescricao">
                     <asp:Label runat="server" ID="lblDescricao"></asp:Label>

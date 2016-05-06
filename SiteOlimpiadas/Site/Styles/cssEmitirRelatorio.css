@@ -934,11 +934,7 @@ article.articleBotoes {
     padding-left: 10px;
   }
   .divTitle {
-    float: left;
-    width: 25%;
-    margin-top: 0;
-    margin-left: 0;
-    height: 100%;
+    width: 25% !important;
   }
   #sectionDadosEvento {
     float: left;
@@ -950,11 +946,8 @@ article.articleBotoes {
     padding-left: 10px;
   }
   .divDados {
-    float: left;
-    width: 25%;
-    margin-top: 0;
-    margin-left: 0;
-    height: 100%;
+    width: 25% !important;
+    font-size: 17px;
   }
   .TextBox {
     width: 400px;
@@ -1037,11 +1030,7 @@ article.articleBotoes {
     padding-left: 10px;
   }
   .divTitle {
-    float: left;
-    width: 25%;
-    margin-top: 0;
-    margin-left: 0;
-    height: 100%;
+    width: 25% !important;
   }
   #sectionDadosEvento {
     float: left;
@@ -1053,11 +1042,8 @@ article.articleBotoes {
     padding-left: 10px;
   }
   .divDados {
-    float: left;
-    width: 25%;
-    margin-top: 0;
-    margin-left: 0;
-    height: 100%;
+    width: 25% !important;
+    font-size: 17px;
   }
   .TextBox {
     width: 400px;
@@ -1140,11 +1126,7 @@ article.articleBotoes {
     padding-left: 10px;
   }
   .divTitle {
-    float: left;
-    width: 25%;
-    margin-top: 0;
-    margin-left: 0;
-    height: 100%;
+    width: 25% !important;
   }
   #sectionDadosEvento {
     float: left;
@@ -1156,11 +1138,8 @@ article.articleBotoes {
     padding-left: 10px;
   }
   .divDados {
-    float: left;
-    width: 25%;
-    margin-top: 0;
-    margin-left: 0;
-    height: 100%;
+    width: 25% !important;
+    font-size: 17px;
   }
   .TextBox {
     width: 400px;
