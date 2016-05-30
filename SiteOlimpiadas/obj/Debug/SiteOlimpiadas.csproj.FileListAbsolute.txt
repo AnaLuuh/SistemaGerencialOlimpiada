@@ -49,3 +49,5 @@ C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\
 C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.csprojResolveAssemblyReference.cache
 C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.dll
 C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\obj\Debug\SiteOlimpiadas.pdb
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\bin\Facebook.dll
+C:\Users\ANA\Documents\-1ProjetoTecWeb\SistemaGerencialOlimpiada\SiteOlimpiadas\bin\Facebook.xml

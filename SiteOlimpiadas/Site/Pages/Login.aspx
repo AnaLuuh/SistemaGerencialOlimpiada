@@ -35,8 +35,11 @@
                 </div>
                 <div class="divControl">
                     <asp:Button runat="server" ID="btnEntrar" CssClass="Button" OnClick="btnEntrar_Click" Text="Entrar" />
-                    <asp:LinkButton runat="server" ID="lnkCadastrar" CssClass="Link" Text="Cadastrar" OnClick="lnkCadastrar_Click"></asp:LinkButton>                   
+                    <asp:LinkButton runat="server" ID="lnkCadastrar" CssClass="Link" Text="Cadastrar" OnClick="lnkCadastrar_Click"></asp:LinkButton>
                 </div>
+                <section class="sectionButtonFacebook">
+                    <asp:Button runat="server" Text="Login With Facebook" ID="btnLogFacebook" OnClick="btnLogFacebook_Click" CssClass="EntrarFace" />
+                </section>
             </section>
         </section>
     </form>
