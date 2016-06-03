@@ -42,13 +42,9 @@ namespace SiteOlimpiadas.Site.Pages
                     valor = "-";
                 else
                     valor = "R$" + ing.Valor;
-                InformacaoBH info = new InformacaoDAL().Obter();
 
                 lblNomeEsporte.Text = evento.Modalidade.DescModalidade;
                 lblDescricao.Text = "<p><strong>" + evento.NomeEvento + "</strong></p><p>" + evento.Modalidade.InfoModalidade + "</p><p><strong>Data: </strong>" + evento.Data.ToShortDateString() + "</p><p><strong>Horário: </strong>" + evento.Horario + "</p><p><strong>Local:</strong> " + evento.Local.DescLocal + "</p><p><strong>Valor: " + valor + "</strong></p>";
-
-                if (evento.Local.DescLocal == "Belo Horizonte")
-                    lblDescricao.Text += "<strong>Sobre BH: </strong>" + info.Informacao;
             }
             catch (Exception ex)
             {

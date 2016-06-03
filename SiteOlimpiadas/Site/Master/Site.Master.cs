@@ -23,15 +23,15 @@ namespace SiteOlimpiadas.Site.Master
                 Usu = new UsuarioDAL().Obter(cliID);
             }
 
-            if (Usu != null)
+            if (Usu != null || Session["NomeCliente"] != null)
             {
                 liLogin.Visible = false;
                 liSair.Visible = true;
                 liUser.Visible = true;
 
-                if (Usu.Perfil_ID == 8)
-                    liAdmin.Visible = true;
-                else
+                //if (Usu.Perfil_ID == 8)
+                //    liAdmin.Visible = true;
+                //else
                     liAdmin.Visible = false;
             } 
             else
@@ -39,6 +39,11 @@ namespace SiteOlimpiadas.Site.Master
                 liUser.Visible = false;
                 liAdmin.Visible = false;
                 liSair.Visible = false;
+            }
+
+            if(Session["NomeCliente"] != null)
+            {
+                lblNome.Text = "Bem vindo(a), " + Session["NomeCliente"].ToString();
             }
         }
 

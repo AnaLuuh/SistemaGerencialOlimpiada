@@ -104,7 +104,6 @@
       <End Role="Evento" EntitySet="Evento" />
       <End Role="Ingresso" EntitySet="Ingresso" />
     </AssociationSet>
-    <EntitySet Name="InformacaoBH" EntityType="OlimpiadasModel.InformacaoBH" />
     <EntitySet Name="Usuario" EntityType="OlimpiadasModel.Usuario" />
     <AssociationSet Name="FK_EventoUsuario_Usuario" Association="OlimpiadasModel.FK_EventoUsuario_Usuario">
       <End Role="Usuario" EntitySet="Usuario" />
@@ -120,14 +119,8 @@
       <End Role="Perfil" EntitySet="Perfil" />
       <End Role="Usuario" EntitySet="Usuario" />
     </AssociationSet>
+    <EntitySet Name="InformacaoBH" EntityType="OlimpiadasModel.InformacaoBH" />
   </EntityContainer>
-  <EntityType Name="InformacaoBH">
-    <Key>
-      <PropertyRef Name="ID" />
-    </Key>
-    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Informacao" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
-  </EntityType>
   <EntityType Name="Usuario">
     <Key>
       <PropertyRef Name="ID" />
@@ -200,4 +193,17 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <EntityType Name="InformacaoBH">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TipoInformacao" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Imagem" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Titulo" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Descricao" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Latitude" Type="Double" />
+    <Property Name="Longitude" Type="Double" />
+    <Property Name="Endereco" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>

@@ -66,6 +66,15 @@
   <ItemGroup>
     <Content Include="Documentos\dataOlimpiadas.sql" />
     <Content Include="Documentos\schemaOlimpiadas.sql" />
+    <Content Include="Imagens\Infos\HotelFinancial1.jpg" />
+    <Content Include="Imagens\Infos\HotelIbis2.jpg" />
+    <Content Include="Imagens\Infos\HotelMercure3.jpg" />
+    <Content Include="Imagens\Infos\Ponto1.jpg" />
+    <Content Include="Imagens\Infos\Ponto2.jpg" />
+    <Content Include="Imagens\Infos\Ponto3.jpg" />
+    <Content Include="Imagens\Infos\RestauranteSapore2.jpg" />
+    <Content Include="Imagens\Infos\RestauranteVerano1.jpg" />
+    <Content Include="Imagens\Infos\RestauranteYakan3.jpg" />
     <Content Include="Site\Geral\UserControls\cssErro.css">
       <DependentUpon>cssErro.scss</DependentUpon>
     </Content>
@@ -86,6 +95,7 @@
     <Content Include="Site\Pages\EditarEvento.aspx" />
     <Content Include="Site\Pages\EmitirRelatorio.aspx" />
     <Content Include="Site\Pages\Eventos.aspx" />
+    <Content Include="Site\Pages\Informacao.aspx" />
     <Content Include="Site\Scripts\jquery-1.11.1.min.js" />
     <Content Include="Site\Styles\cssAjuda.css">
       <DependentUpon>cssAjuda.scss</DependentUpon>
@@ -293,6 +303,13 @@
     </Compile>
     <Compile Include="Site\Pages\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Pages\Informacao.aspx.cs">
+      <DependentUpon>Informacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Pages\Informacao.aspx.designer.cs">
+      <DependentUpon>Informacao.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site\Pages\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

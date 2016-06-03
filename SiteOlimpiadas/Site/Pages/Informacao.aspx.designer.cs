@@ -10,51 +10,51 @@
 namespace SiteOlimpiadas.Site.Pages {
     
     
-    public partial class Home {
+    public partial class Informacao {
         
         /// <summary>
-        /// placeholder control.
+        /// hdfLat control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder placeholder;
+        protected global::System.Web.UI.WebControls.HiddenField hdfLat;
         
         /// <summary>
-        /// rptEventos control.
+        /// hdfLon control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rptEventos;
+        protected global::System.Web.UI.WebControls.HiddenField hdfLon;
         
         /// <summary>
-        /// rptHoteis control.
+        /// lbLTitulo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rptHoteis;
+        protected global::System.Web.UI.WebControls.Label lbLTitulo;
         
         /// <summary>
-        /// rptRestaurantes control.
+        /// imgInfo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rptRestaurantes;
+        protected global::System.Web.UI.WebControls.Image imgInfo;
         
         /// <summary>
-        /// rptPontos control.
+        /// lblDescricao control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rptPontos;
+        protected global::System.Web.UI.WebControls.Label lblDescricao;
     }
 }

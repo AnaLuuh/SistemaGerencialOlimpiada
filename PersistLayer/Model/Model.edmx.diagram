@@ -13,13 +13,13 @@
         <AssociationConnector Association="OlimpiadasModel.FK_Evento_Local" ManuallyRouted="false" />
         <AssociationConnector Association="OlimpiadasModel.FK_EventoUsuario_Evento" ManuallyRouted="false" />
         <AssociationConnector Association="OlimpiadasModel.FK_Ingresso_Evento" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="OlimpiadasModel.InformacaoBH" Width="1.5" PointX="3.375" PointY="0.75" />
         <EntityTypeShape EntityType="OlimpiadasModel.Usuario" Width="1.5" PointX="0.75" PointY="8" />
         <AssociationConnector Association="OlimpiadasModel.FK_EventoUsuario_Usuario" />
         <EntityTypeShape EntityType="OlimpiadasModel.Modalidade" Width="1.5" PointX="7.375" PointY="4.875" />
         <AssociationConnector Association="OlimpiadasModel.FK_Evento_Modalidade" />
         <EntityTypeShape EntityType="OlimpiadasModel.Perfil" Width="1.5" PointX="0.75" PointY="13" />
         <AssociationConnector Association="OlimpiadasModel.FK_Usuario_Perfil" />
+        <EntityTypeShape EntityType="OlimpiadasModel.InformacaoBH" Width="1.5" PointX="7.375" PointY="7.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

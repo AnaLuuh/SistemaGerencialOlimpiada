@@ -17,7 +17,7 @@ namespace SiteOlimpiadas.Site.Pages
         {
             try
             {
-                if (Usu == null)
+                if (Usu == null && Session["NomeCliente"] == null)
                     Response.Redirect("Login.aspx");
 
                 if (!IsPostBack)
@@ -76,10 +76,10 @@ namespace SiteOlimpiadas.Site.Pages
         {
             try
             {
-                EventoUsuario ev = new EventoUsuario();
-                ev.Evento_ID = Convert.ToInt32(ddlEvento.SelectedValue);
-                ev.Usuario_ID = Usu.ID;
-                ev.ID = new EventoUsuarioDAL().Adicionar(ev);
+                //EventoUsuario ev = new EventoUsuario();
+                //ev.Evento_ID = Convert.ToInt32(ddlEvento.SelectedValue);
+                //ev.Usuario_ID = Usu.ID;
+                //ev.ID = new EventoUsuarioDAL().Adicionar(ev);
             }
             catch (Exception ex)
             {

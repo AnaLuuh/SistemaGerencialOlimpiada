@@ -7,6 +7,24 @@
     <title>Login</title>
     <link href="../Styles/cssLogin.min.css" rel="stylesheet" />
     <link href="../Geral/UserControls/cssErro.min.css" rel="stylesheet" />
+
+    <style>
+        .EntrarFace {
+            background-color: #4D6FA8;
+            font-weight: bold;
+            height: 35px;
+            padding-right: 10px;
+            border: none;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            font-family: 'Segoe UI';
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -37,7 +55,7 @@
                     <asp:Button runat="server" ID="btnEntrar" CssClass="Button" OnClick="btnEntrar_Click" Text="Entrar" />
                     <asp:LinkButton runat="server" ID="lnkCadastrar" CssClass="Link" Text="Cadastrar" OnClick="lnkCadastrar_Click"></asp:LinkButton>
                 </div>
-                <section class="sectionButtonFacebook">
+                <section class="divControl">
                     <asp:Button runat="server" Text="Login With Facebook" ID="btnLogFacebook" OnClick="btnLogFacebook_Click" CssClass="EntrarFace" />
                 </section>
             </section>

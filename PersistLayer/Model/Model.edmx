@@ -29,7 +29,13 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Informacao" Type="varchar(max)" Nullable="false" />
+          <Property Name="TipoInformacao" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Imagem" Type="varchar(max)" />
+          <Property Name="Titulo" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Descricao" Type="varchar(max)" Nullable="false" />
+          <Property Name="Latitude" Type="float" />
+          <Property Name="Longitude" Type="float" />
+          <Property Name="Endereco" Type="varchar(max)" />
         </EntityType>
         <EntityType Name="Ingresso">
           <Key>
@@ -301,7 +307,6 @@
             <End Role="Evento" EntitySet="Evento" />
             <End Role="Ingresso" EntitySet="Ingresso" />
           </AssociationSet>
-          <EntitySet Name="InformacaoBH" EntityType="OlimpiadasModel.InformacaoBH" />
           <EntitySet Name="Usuario" EntityType="OlimpiadasModel.Usuario" />
           <AssociationSet Name="FK_EventoUsuario_Usuario" Association="OlimpiadasModel.FK_EventoUsuario_Usuario">
             <End Role="Usuario" EntitySet="Usuario" />
@@ -317,14 +322,8 @@
             <End Role="Perfil" EntitySet="Perfil" />
             <End Role="Usuario" EntitySet="Usuario" />
           </AssociationSet>
+          <EntitySet Name="InformacaoBH" EntityType="OlimpiadasModel.InformacaoBH" />
         </EntityContainer>
-        <EntityType Name="InformacaoBH">
-          <Key>
-            <PropertyRef Name="ID" />
-          </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Informacao" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
-        </EntityType>
         <EntityType Name="Usuario">
           <Key>
             <PropertyRef Name="ID" />
@@ -397,6 +396,19 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityType Name="InformacaoBH">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TipoInformacao" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Imagem" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Titulo" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Descricao" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Latitude" Type="Double" />
+          <Property Name="Longitude" Type="Double" />
+          <Property Name="Endereco" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -450,14 +462,6 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="InformacaoBH">
-            <EntityTypeMapping TypeName="OlimpiadasModel.InformacaoBH">
-              <MappingFragment StoreEntitySet="InformacaoBH">
-                <ScalarProperty Name="Informacao" ColumnName="Informacao" />
-                <ScalarProperty Name="ID" ColumnName="ID" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="Usuario">
             <EntityTypeMapping TypeName="OlimpiadasModel.Usuario">
               <MappingFragment StoreEntitySet="Usuario">
@@ -489,6 +493,20 @@
             <EntityTypeMapping TypeName="OlimpiadasModel.Perfil">
               <MappingFragment StoreEntitySet="Perfil">
                 <ScalarProperty Name="DescPerfil" ColumnName="DescPerfil" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="InformacaoBH">
+            <EntityTypeMapping TypeName="OlimpiadasModel.InformacaoBH">
+              <MappingFragment StoreEntitySet="InformacaoBH">
+                <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+                <ScalarProperty Name="Imagem" ColumnName="Imagem" />
+                <ScalarProperty Name="TipoInformacao" ColumnName="TipoInformacao" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>

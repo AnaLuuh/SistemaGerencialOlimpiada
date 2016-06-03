@@ -16,14 +16,24 @@ namespace PersistLayer.DAL
             Entity = new Entities();
         }
 
-        public InformacaoBH Obter()
+        public InformacaoBH Obter(int ID)
         {
-            return Entity.InformacaoBH.First();
+            return Entity.InformacaoBH.FirstOrDefault(a => a.ID == ID);
         }
 
-        public Evento Obter(int ID)
+        public List<InformacaoBH> ListarHoteis()
         {
-            return Entity.Evento.Where(a => a.ID == ID).SingleOrDefault();
+            return Entity.InformacaoBH.Where(a => a.TipoInformacao == "HOTEL").ToList();
+        }
+
+        public List<InformacaoBH> ListarRestaurantes()
+        {
+            return Entity.InformacaoBH.Where(a => a.TipoInformacao == "RESTAURANTE").ToList();
+        }
+
+        public List<InformacaoBH> ListarPontos()
+        {
+            return Entity.InformacaoBH.Where(a => a.TipoInformacao == "PONTO TURISTICO").ToList();
         }
     }
 }

@@ -15,6 +15,12 @@ namespace PersistLayer.Model
     public partial class InformacaoBH
     {
         public int ID { get; set; }
-        public string Informacao { get; set; }
+        public string TipoInformacao { get; set; }
+        public string Imagem { get; set; }
+        public string Titulo { get; set; }
+        public string Descricao { get; set; }
+        public Nullable<double> Latitude { get; set; }
+        public Nullable<double> Longitude { get; set; }
+        public string Endereco { get; set; }
     }
 }

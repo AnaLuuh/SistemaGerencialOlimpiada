@@ -36,10 +36,13 @@
                 </nav>
             </section>
             <nav id="navMenu">
-                <ul>
+                <ul style="float:left; width: 50%">
                     <li><a href="../Pages/Home.aspx">Home</a> |</li>
                     <li><a href="../Pages/Ajuda.aspx">Ajuda</a></li>
                 </ul>
+                <div style="color:white; float:left; width:45%; text-align:right; font-weight:bold">
+                    <asp:Label runat="server" ID="lblNome"></asp:Label>
+                </div>
             </nav>
             <article id="articlePage">
                 <asp:ContentPlaceHolder ID="Conteudo" runat="server">

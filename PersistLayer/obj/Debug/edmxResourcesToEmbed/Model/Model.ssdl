@@ -24,7 +24,13 @@
       <PropertyRef Name="ID" />
     </Key>
     <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Informacao" Type="varchar(max)" Nullable="false" />
+    <Property Name="TipoInformacao" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Imagem" Type="varchar(max)" />
+    <Property Name="Titulo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Descricao" Type="varchar(max)" Nullable="false" />
+    <Property Name="Latitude" Type="float" />
+    <Property Name="Longitude" Type="float" />
+    <Property Name="Endereco" Type="varchar(max)" />
   </EntityType>
   <EntityType Name="Ingresso">
     <Key>

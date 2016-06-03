@@ -17,7 +17,7 @@ namespace SiteOlimpiadas.Site.Pages
         {
             try
             {
-                if (Usu == null)
+                if (Usu == null && Session["NomeCliente"] == null)
                     Response.Redirect("Login.aspx");
 
                 if (!IsPostBack)
@@ -35,14 +35,14 @@ namespace SiteOlimpiadas.Site.Pages
         {
             try
             {
-                txtNome.Text = Usu.Nome;
-                txtCPF.Text = Usu.CPF;
-                txtDataNasc.Text = Usu.DataNascimento;
-                txtLogradouro.Text = Usu.Logradouro;
-                txtNumero.Text = Usu.Numero.ToString();
-                txtBairro.Text = Usu.Bairro;
-                txtCidade.Text = Usu.Cidade;
-                txtUF.Text = Usu.UF;
+                //txtNome.Text = Usu.Nome;
+                //txtCPF.Text = Usu.CPF;
+                //txtDataNasc.Text = Usu.DataNascimento;
+                //txtLogradouro.Text = Usu.Logradouro;
+                //txtNumero.Text = Usu.Numero.ToString();
+                //txtBairro.Text = Usu.Bairro;
+                //txtCidade.Text = Usu.Cidade;
+                //txtUF.Text = Usu.UF;
             }
             catch (Exception ex)
             {
@@ -56,38 +56,38 @@ namespace SiteOlimpiadas.Site.Pages
         {
             try
             {
-                Usuario usuario = new UsuarioDAL().Obter(Usu.ID);
+                //Usuario usuario = new UsuarioDAL().Obter(Usu.ID);
 
-                if (txtNome.Text.Equals(string.Empty))
-                    throw new ApplicationException("O campo NOME é obrigatório!");
-                if (txtCPF.Text.Equals(string.Empty))
-                    throw new ApplicationException("O campo CPF é obrigatório!");
-                if (txtLogradouro.Text.Equals(string.Empty))
-                    throw new ApplicationException("O campo LOGRADOURO é obrigatório!");
-                if (txtNumero.Text.Equals(string.Empty))
-                    throw new ApplicationException("O campo NUMERO é obrigatório!");
-                if (txtBairro.Text.Equals(string.Empty))
-                    throw new ApplicationException("O campo BAIRRO é obrigatório!");
-                if (txtCidade.Text.Equals(string.Empty))
-                    throw new ApplicationException("O campo CIDADE é obrigatório!");
-                if (txtUF.Text.Equals(string.Empty))
-                    throw new ApplicationException("O campo UF é obrigatório!");
-                if (txtDataNasc.Text.Equals(string.Empty))
-                    throw new ApplicationException("O campo DATA DE NASCIMENTO é obrigatório!");
+                //if (txtNome.Text.Equals(string.Empty))
+                //    throw new ApplicationException("O campo NOME é obrigatório!");
+                //if (txtCPF.Text.Equals(string.Empty))
+                //    throw new ApplicationException("O campo CPF é obrigatório!");
+                //if (txtLogradouro.Text.Equals(string.Empty))
+                //    throw new ApplicationException("O campo LOGRADOURO é obrigatório!");
+                //if (txtNumero.Text.Equals(string.Empty))
+                //    throw new ApplicationException("O campo NUMERO é obrigatório!");
+                //if (txtBairro.Text.Equals(string.Empty))
+                //    throw new ApplicationException("O campo BAIRRO é obrigatório!");
+                //if (txtCidade.Text.Equals(string.Empty))
+                //    throw new ApplicationException("O campo CIDADE é obrigatório!");
+                //if (txtUF.Text.Equals(string.Empty))
+                //    throw new ApplicationException("O campo UF é obrigatório!");
+                //if (txtDataNasc.Text.Equals(string.Empty))
+                //    throw new ApplicationException("O campo DATA DE NASCIMENTO é obrigatório!");
 
-                usuario.Nome = txtNome.Text;
-                usuario.CPF = txtCPF.Text;
-                usuario.Logradouro = txtLogradouro.Text;
-                usuario.Numero = Convert.ToInt32(txtNumero.Text);
-                usuario.Bairro = txtBairro.Text;
-                usuario.Cidade = txtCidade.Text;
-                usuario.UF = txtUF.Text;
-                usuario.DataNascimento = txtDataNasc.Text;
-                usuario.ID = usuario.ID;
+                //usuario.Nome = txtNome.Text;
+                //usuario.CPF = txtCPF.Text;
+                //usuario.Logradouro = txtLogradouro.Text;
+                //usuario.Numero = Convert.ToInt32(txtNumero.Text);
+                //usuario.Bairro = txtBairro.Text;
+                //usuario.Cidade = txtCidade.Text;
+                //usuario.UF = txtUF.Text;
+                //usuario.DataNascimento = txtDataNasc.Text;
+                //usuario.ID = usuario.ID;
 
-                new UsuarioDAL().Atualizar(usuario);
+                //new UsuarioDAL().Atualizar(usuario);
 
-                lblSucesso.Text = "Dados atualizados com sucesso!";
+                //lblSucesso.Text = "Dados atualizados com sucesso!";
             }
             catch (Exception ex)
             {

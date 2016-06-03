@@ -168,7 +168,7 @@ namespace SiteOlimpiadas.Site.Pages
                     Session["NomeCliente"] = name;
                     Session["EmailCliente"] = email;
 
-                    //Response.Redirect("Home.aspx");
+                    Response.Redirect("Home.aspx");
                 }
             }
             catch (Exception ex)

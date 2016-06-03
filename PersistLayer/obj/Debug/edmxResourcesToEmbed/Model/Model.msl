@@ -48,14 +48,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="InformacaoBH">
-      <EntityTypeMapping TypeName="OlimpiadasModel.InformacaoBH">
-        <MappingFragment StoreEntitySet="InformacaoBH">
-          <ScalarProperty Name="Informacao" ColumnName="Informacao" />
-          <ScalarProperty Name="ID" ColumnName="ID" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="Usuario">
       <EntityTypeMapping TypeName="OlimpiadasModel.Usuario">
         <MappingFragment StoreEntitySet="Usuario">
@@ -87,6 +79,20 @@
       <EntityTypeMapping TypeName="OlimpiadasModel.Perfil">
         <MappingFragment StoreEntitySet="Perfil">
           <ScalarProperty Name="DescPerfil" ColumnName="DescPerfil" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InformacaoBH">
+      <EntityTypeMapping TypeName="OlimpiadasModel.InformacaoBH">
+        <MappingFragment StoreEntitySet="InformacaoBH">
+          <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Imagem" ColumnName="Imagem" />
+          <ScalarProperty Name="TipoInformacao" ColumnName="TipoInformacao" />
           <ScalarProperty Name="ID" ColumnName="ID" />
         </MappingFragment>
       </EntityTypeMapping>

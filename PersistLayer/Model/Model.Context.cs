@@ -30,9 +30,9 @@ namespace PersistLayer.Model
         public virtual DbSet<Ingresso> Ingresso { get; set; }
         public virtual DbSet<Local> Local { get; set; }
         public virtual DbSet<Tutorial> Tutorial { get; set; }
-        public virtual DbSet<InformacaoBH> InformacaoBH { get; set; }
         public virtual DbSet<Usuario> Usuario { get; set; }
         public virtual DbSet<Modalidade> Modalidade { get; set; }
         public virtual DbSet<Perfil> Perfil { get; set; }
+        public virtual DbSet<InformacaoBH> InformacaoBH { get; set; }
     }
 }

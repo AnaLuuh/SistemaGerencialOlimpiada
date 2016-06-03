@@ -35,7 +35,7 @@ namespace SiteOlimpiadas.Site.Pages
         {
             try
             {
-                if (Usu == null)
+                if (Usu == null && Session["NomeCliente"] == null)
                     Response.Redirect("Login.aspx");
 
                 if (!IsPostBack)
