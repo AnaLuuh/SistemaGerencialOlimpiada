@@ -4,8 +4,10 @@
     <link href="../Styles/cssHome.min.css" rel="stylesheet" />
     <link href="../Geral/UserControls/cssErro.min.css" rel="stylesheet" />
     <style>
-        #img{
-            width:500px;
+        #img {
+            width: 80%;
+            margin-left: 5%;
+            height: 600px;
         }
     </style>
 </asp:Content>
@@ -56,14 +58,14 @@
             <div style="float: left; width: 100%; margin-top: 15px; font-weight: bold; font-size: 25px; text-align: center">
                 Sua localização
             </div>
-            <div id="mapholder" style="float:left; width:100%; text-align:center; margin-top: 15px"></div>
+            <div id="mapholder" style="float: left; width: 100%; text-align: center; margin-top: 15px"></div>
             <div style="float: left; width: 100%; margin-top: 15px; font-weight: bold; font-size: 25px; text-align: center">
                 Sobre Belo Horizonte
             </div>
             <div style="float: left; width: 90%; margin-left: 5%; margin-top: 5px; font-weight: bold; font-size: 25px">
                 Hotéis
             </div>
-            <ul style="list-style:none; float:left; width: 100%">
+            <ul style="list-style: none; float: left; width: 90%; margin-left: 5%">
                 <asp:Repeater runat="server" ID="rptHoteis">
                     <ItemTemplate>
                         <li>
@@ -75,7 +77,7 @@
             <div style="float: left; width: 90%; margin-left: 5%; margin-top: 5px; font-weight: bold; font-size: 25px">
                 Restaurantes
             </div>
-             <ul style="list-style:none; float:left; width: 100%">
+            <ul style="list-style: none; float: left; width: 90%; margin-left: 5%">
                 <asp:Repeater runat="server" ID="rptRestaurantes">
                     <ItemTemplate>
                         <li>
@@ -87,7 +89,7 @@
             <div style="float: left; width: 90%; margin-left: 5%; margin-top: 5px; font-weight: bold; font-size: 25px">
                 Pontos Turísticos
             </div>
-             <ul style="list-style:none; float:left; width: 100%">
+            <ul style="list-style: none; float: left; width: 90%; margin-left: 5%">
                 <asp:Repeater runat="server" ID="rptPontos">
                     <ItemTemplate>
                         <li>
@@ -99,11 +101,11 @@
         </section>
     </section>
 
-     <script>
+    <script>
 
-         (function () {
-             getLocation();
-         })();
+        (function () {
+            getLocation();
+        })();
 
         var x = document.getElementById("demo");
         function getLocation() {

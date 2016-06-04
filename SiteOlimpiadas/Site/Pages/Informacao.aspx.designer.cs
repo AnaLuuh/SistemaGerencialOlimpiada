@@ -22,6 +22,15 @@ namespace SiteOlimpiadas.Site.Pages {
         protected global::System.Web.UI.WebControls.HiddenField hdfLat;
         
         /// <summary>
+        /// hdfDesc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hdfDesc;
+        
+        /// <summary>
         /// hdfLon control.
         /// </summary>
         /// <remarks>

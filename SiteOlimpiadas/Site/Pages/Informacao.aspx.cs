@@ -35,8 +35,9 @@ namespace SiteOlimpiadas.Site.Pages
             lbLTitulo.Text = info.Titulo;
             lblDescricao.Text = info.Descricao;
             imgInfo.ImageUrl = "/Imagens/Infos/" + info.Imagem;
-            hdfLat.Value = info.Latitude.ToString();
-            hdfLon.Value = info.Longitude.ToString();
+            hdfLat.Value = info.Latitude.ToString().Replace(",", ".");
+            hdfLon.Value = info.Longitude.ToString().Replace(",", ".");
+            hdfDesc.Value = info.Titulo.ToString().Replace(",", ".");
         }
     }
 }
